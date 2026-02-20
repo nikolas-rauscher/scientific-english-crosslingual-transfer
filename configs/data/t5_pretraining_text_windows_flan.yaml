@@ -1,0 +1,20 @@
+_target_: src.data.t5_datamodule.T5DataModule
+
+# Using validated materialized text-based sliding windows 
+data_dir: /fscratch/nrauscher/projects/BA-hydra/data/validated_sliding_windows/validated
+
+tokenizer_name_or_path: google/flan-t5-base
+
+batch_size: 8   
+num_workers: 60
+pin_memory: true
+
+max_length: 512
+corruption_rate: 0.15
+mean_span_length: 3
+
+train_val_split: [0.95, 0.05] 
+
+use_materialized_windows: true
+limit_files: -1  # No limit for production
+limit_documents: -1  # No limit for production

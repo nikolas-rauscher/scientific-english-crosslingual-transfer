@@ -1,0 +1,66 @@
+{
+  "source_splits_dir": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/deu_Latn/splits_doc",
+  "target_splits_dir": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/deu_Latn/splits/sub/sub_charcap43gb_seed42",
+  "budget_mode": "fixed_split_chars",
+  "budget_total_chars": 5000000000,
+  "target_total_gb": null,
+  "target_total_chars": null,
+  "fixed_split_budgets_chars": {
+    "train": 4300000000,
+    "val": 200000000,
+    "test": 500000000
+  },
+  "text_key": "text",
+  "id_key": "id",
+  "ratios": {
+    "train": 0.93,
+    "val": 0.02,
+    "test": 0.05
+  },
+  "keep_seed": 42,
+  "split_seed": 43,
+  "allow_smaller": true,
+  "batch_size": 65536,
+  "source_total_rows": 594618,
+  "source_total_chars": 20669299177,
+  "keep_ratio": 0.2419046701672308,
+  "source_per_split": {
+    "train": {
+      "rows": 564707,
+      "chars": 19419593027
+    },
+    "val": {
+      "rows": 808,
+      "chars": 346579932
+    },
+    "test": {
+      "rows": 29103,
+      "chars": 903126218
+    }
+  },
+  "splits": {
+    "train": {
+      "target_file": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/deu_Latn/splits/sub/sub_charcap43gb_seed42/train/docs.parquet",
+      "requested_chars": 4300000000,
+      "written_rows": 124052,
+      "written_chars": 4299999998
+    },
+    "val": {
+      "target_file": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/deu_Latn/splits/sub/sub_charcap43gb_seed42/val/docs.parquet",
+      "requested_chars": 200000000,
+      "written_rows": 5378,
+      "written_chars": 199999999
+    },
+    "test": {
+      "target_file": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/deu_Latn/splits/sub/sub_charcap43gb_seed42/test/docs.parquet",
+      "requested_chars": 500000000,
+      "written_rows": 14553,
+      "written_chars": 500000001
+    }
+  },
+  "selection_mode": "fixed_split_budgets",
+  "kept_total_rows": 143983,
+  "kept_total_chars": 4999999998,
+  "scanned_total_rows": 594618,
+  "scanned_total_chars": 20669299177
+}

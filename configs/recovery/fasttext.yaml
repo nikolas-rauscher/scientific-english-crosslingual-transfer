@@ -1,0 +1,27 @@
+# @package _global_
+defaults:
+  - override /hydra/launcher: basic
+
+# FastText Document Recovery Configuration
+recovery:
+  # Recovery parameters
+  old_threshold: 0.75  # Previous threshold that filtered out documents
+  new_threshold: 0.70  # New lower threshold to recover more documents
+  limit_documents: -1  # -1 = unlimited, positive = limit for testing
+  tasks: 75           # Parallel tasks
+  workers: 75         # Workers per task
+  debug_mode: false   # Log every recovered document
+  
+  # Input/Output paths
+  paths:
+    src_dir: "data/statistics_data_gold/enriched_documents_statistics_v2"  # Original documents
+    src_pattern: "*.parquet"              # Pattern to match parquet files
+    dst: "data/o/"  # Output directory for recovered documents
+
+# Hydra configuration
+hydra:
+  run:
+    dir: "outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+  sweep:
+    dir: "multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+    subdir: "${hydra.job.num}"

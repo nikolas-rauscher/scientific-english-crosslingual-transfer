@@ -1,0 +1,41 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - paths: default
+  - hydra: default
+  # Allow overriding the experiment via CLI: experiment=<name>
+  - experiment: null
+  # Override colorlog usage (not installed in eval venv) — overrides must be last
+  - override hydra/job_logging: default
+  - override hydra/hydra_logging: default
+
+# Required by hydra/default.yaml
+task_name: eval_pipeline
+
+# Fallback experiment metadata (can be overridden by experiment configs)
+experiment_name: universal_evaluation
+description: ""
+
+# Minimal logger structure; experiment configs can provide wandb details
+logger:
+  wandb: {}
+
+# Required top-level keys expected by src/eval_pipeline.py
+models: []
+benchmarks: []
+
+# Evaluation behavior flags
+eval:
+  cleanup_temp_models: true
+
+# Global evaluation defaults (can be overridden per experiment/benchmark)
+device: cuda
+batch_size: auto
+seed: 42
+
+# Diagnostic options
+diagnostics:
+  write_out: false  # Enable --write_out flag to see prompts and model outputs (useful for debugging)
+
+

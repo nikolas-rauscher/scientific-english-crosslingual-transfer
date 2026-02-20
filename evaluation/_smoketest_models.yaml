@@ -1,0 +1,10 @@
+# @package _global_
+models:
+  - source_path: "t5-small"
+    name: "smoke-t5-small"
+  - source_path: "sshleifer/tiny-gpt2"
+    name: "smoke-tiny-gpt2-device_map"
+    model_args:
+      dtype: "fp32"
+      device_map: "auto"
+      low_cpu_mem_usage: true

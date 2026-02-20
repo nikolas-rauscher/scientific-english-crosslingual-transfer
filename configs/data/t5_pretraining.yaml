@@ -1,0 +1,17 @@
+_target_: src.data.t5_datamodule.T5DataModule
+
+# Using materialized sliding windows from preprocessing pipeline
+data_dir: data/windows_text_2025-07-02
+
+tokenizer_name_or_path: t5-base
+
+batch_size: 32  # Increased for A100-80GB
+num_workers: 63  # Reduced from 63 to leave some CPU for other processes
+pin_memory: true
+
+max_length: 512
+corruption_rate: 0.15
+mean_span_length: 3
+
+train_val_split: [0.95, 0.05] 
+

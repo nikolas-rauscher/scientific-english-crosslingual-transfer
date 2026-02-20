@@ -1,0 +1,108 @@
+# Konfiguration für DataTrove Stats-Pipeline
+
+# Wandb Logging (direkt konfiguriert)
+logger:
+  project: "BA-DataTrove"
+  group: "stats-pipeline"
+  tags: ["datatrove", "statistics", "first-pipeline"]
+  job_type: "data-analysis"
+  save_code: false
+  notes: "First stats pipeline"
+
+# Pfade für Datenzugriff und -ausgabe
+paths:
+  input_folder: /fscratch/nrauscher/projects/BA-hydra/data/cleaned-data-final-09-07-2025
+  src_pattern: "*.parquet"
+  output_folder: /fscratch/nrauscher/projects/BA-hydra/data/after_cleaning/cleand_data_stats_enriched_V1/
+  # logging_dir: Wird dynamisch von Script generiert (Hydra-Output + DataTrove-Subdirectory)
+
+# Reader Konfiguration
+reader:
+  text_key: "text"
+  id_key: "id"
+  default_metadata: {}
+
+# Pipeline Ausführungseinstellungen
+# Optimiert für: 50 CPU cores, 125GB RAM, 200GB data - Maximale Parallelisierung 
+tasks: 75       # 4x workers (50*4) für optimale Load-Balancing  
+workers: 75        # 96% der CPU-Kerne (50), minimale Reserve für System
+limit_documents: -1 # Kann per Kommandozeile überschrieben werden (limit_documents=100)
+
+# Optional: Speichere enriched documents mit stats als metadata
+save_enriched_docs: true # true = saves parquet files with stats in metadata, false = only aggregated stats
+
+# Pipeline Module Konfiguration
+pipeline:
+  stats_modules:
+    # Globale Defaults für alle Stats-Module
+    doc_stats:
+      _target_: datatrove.pipeline.stats.DocStats
+      output_folder: "doc_stats"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_round_digits: 3
+
+    line_stats:
+      _target_: datatrove.pipeline.stats.LineStats
+      output_folder: "line_stats"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_round_digits: 3
+      max_k_chars_per_line_tresholds: [10, 30]
+      min_k_chars_per_line_thresholds: [2000, 10000]
+      ignore_empty_lines: false
+
+    paragraph_stats:
+      _target_: datatrove.pipeline.stats.ParagraphStats
+      output_folder: "paragraph_stats"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_round_digits: 3
+      short_paragraph_max_chars_threshold: [100]
+      long_paragraph_max_chars_threshold: [1000]
+      ignore_empty_paragraphs: false
+
+    sentence_stats:
+      _target_: datatrove.pipeline.stats.SentenceStats
+      output_folder: "sentence_stats"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_round_digits: 3
+      short_sentence_max_chars_threshold: [20]
+      long_sentence_max_chars_threshold: [75]
+      language: "en"
+
+    token_stats:
+      _target_: datatrove.pipeline.stats.TokenStats
+      output_folder: "token_stats"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_rounding: 3
+      tokenizer_name_or_path: "gpt2"
+
+    word_stats:
+      _target_: datatrove.pipeline.stats.WordStats
+      output_folder: "word_stats"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_round_digits: 3
+      short_word_max_chars_threshold: [3]
+      long_word_max_chars_threshold: [7]
+      language: "en"
+
+    lang_stats:
+      _target_: datatrove.pipeline.stats.LangStats
+      output_folder: "lang_stats"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_round_digits: 3
+      language: "en"
+
+    # perplexity_stats_oscar:
+    #   _target_: datatrove.pipeline.stats.CCNetPerplexityStats
+    #   output_folder: "perplexity_stats_oscar"
+    #   groups_to_compute: ["summary", "histogram"]
+    #   histogram_round_digits: 3
+    #   model_dataset: "oscar"  # Web content quality baseline
+    #   language: "en"
+
+    perplexity_stats_wikipedia:
+      _target_: datatrove.pipeline.stats.CCNetPerplexityStats
+      output_folder: "perplexity_stats_wikipedia"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_round_digits: 3
+      model_dataset: "wikipedia"  # Formal/academic quality baseline
+      language: "en"

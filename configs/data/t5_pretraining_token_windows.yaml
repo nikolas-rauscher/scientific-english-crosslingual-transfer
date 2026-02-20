@@ -1,0 +1,19 @@
+_target_: src.data.t5_datamodule.T5DataModule
+
+# Using materialized token-based sliding windows 
+data_dir: /netscratch/nrauscher/projects/BA-hydra/data/windows_tokens_2025-07-02
+
+tokenizer_name_or_path: t5-base
+
+batch_size: 8   
+num_workers: 32
+pin_memory: true
+
+max_length: 512
+corruption_rate: 0.15
+mean_span_length: 3
+
+train_val_split: [0.95, 0.05] 
+
+use_materialized_windows: true
+limit_files: -1  # No limit for production

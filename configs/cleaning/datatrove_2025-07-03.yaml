@@ -1,0 +1,31 @@
+# ------------------------------------------------------------------
+#  Hydra-Konfiguration für die DataTrove-Preprocessing-Pipeline
+# ------------------------------------------------------------------
+
+# W&B Logger für Citation Cleaning
+logger:
+  wandb:
+    project: "BA-DataTrove"
+    group: "citation-cleaning"
+    tags: ["citation-cleaning", "datatrove", "text-preprocessing", "production-run", "2025-07-03", "fasttext-filtering", "padding-cleanup"]
+    job_type: "data-cleaning"
+    save_code: true
+    notes: "PRODUCTION RUN: Citation cleaning for 2025-07-03 dataset with FastText language detection and improved padding cleaning"
+
+paths:
+  # (Basisordner)
+  src_dir: /netscratch/nrauscher/projects/BA-hydra/data/statistics_data_gold/enriched_documents_statistics_v2
+  src_pattern: "*.parquet"
+  # Ziel-Ordner
+  dst: /netscratch/nrauscher/projects/BA-hydra/data/cleaned_pretraining_2025-07-03/
+
+cleaning:
+  # Parameter für die Begrenzung der Dokumente für Testläufe (-1 = keine Begrenzung)
+  limit_documents: -1  # limit pro task 
+  # URL-Filter-Parameter
+  
+  # Debug Mode - zeigt Debug-Tags statt Text zu entfernen
+  debug_mode: false  # true = Debug-Tags, false = Text entfernen
+
+  tasks: 75            # Task-Shards × CPU
+  workers: 75

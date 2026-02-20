@@ -1,0 +1,61 @@
+# Konfiguration für spaCy-basierte Stats-Module (nur SentenceStats, WordStats, LangStats)
+
+# Wandb Logging (direkt konfiguriert)
+logger:
+  project: "BA-DataTrove"
+  group: "stats-pipeline"
+  tags: ["datatrove", "statistics", "second-pipeline"]
+  job_type: "data-analysis"
+  save_code: false
+  notes: "spaCy-based stats pipeline (SentenceStats, WordStats, LangStats)"
+
+# Pfade für Datenzugriff und -ausgabe
+paths:
+  # CHAINED v2: Liest enriched documents v1 (Standard-Stats) und erstellt v2 (Standard + spaCy)
+  input_folder: /fscratch/nrauscher/projects/BA-hydra/data/after_cleaning/cleand_data_stats_enriched_V1/enriched_documents_statistics_v1/
+  src_pattern: "*.parquet"
+  output_folder: /fscratch/nrauscher/projects/BA-hydra/data/after_cleaning/cleand_data_stats_enriched_V2/
+  # logging_dir: Wird dynamisch von Script generiert (Hydra-Output + DataTrove-Subdirectory)
+
+# Reader Konfiguration
+reader:
+  text_key: "text"
+  id_key: "id"
+  default_metadata: {}
+
+# Pipeline Ausführungseinstellungen  
+# spaCy-Stats sind memory-intensiver, aber trotzdem aggressiver für bessere CPU-Auslastung
+tasks: 75         # 4x workers (50*4) für aggressive Load-Balancing
+workers: 75       # ~75% der CPU-Kerne (50) - konservativ wegen spaCy Memory-Verbrauch
+limit_documents: -1 # Kann per Kommandozeile überschrieben werden (limit_documents=100)
+
+# Optional: Speichere enriched documents mit stats als metadata
+save_enriched_docs: true # true = saves parquet files with stats in metadata, false = only aggregated stats
+
+# Pipeline Module Konfiguration (nur spaCy-basierte)
+pipeline:
+  stats_modules:
+    sentence_stats:
+      _target_: datatrove.pipeline.stats.SentenceStats
+      output_folder: "sentence_stats"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_round_digits: 3
+      short_sentence_max_chars_threshold: [20]
+      long_sentence_max_chars_threshold: [75]
+      language: "en"
+
+    word_stats:
+      _target_: datatrove.pipeline.stats.WordStats
+      output_folder: "word_stats"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_round_digits: 3
+      short_word_max_chars_threshold: [3]
+      long_word_max_chars_threshold: [7]
+      language: "en"
+
+    lang_stats:
+      _target_: datatrove.pipeline.stats.LangStats
+      output_folder: "lang_stats"
+      groups_to_compute: ["summary", "histogram"]
+      histogram_round_digits: 3
+      language: "en" 

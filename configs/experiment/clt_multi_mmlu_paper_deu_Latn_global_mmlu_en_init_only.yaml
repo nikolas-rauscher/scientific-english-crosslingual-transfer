@@ -1,0 +1,23 @@
+# @package _global_
+
+experiment_name: "clt_multi_mmlu_paper_deu_Latn_global_mmlu_en_init_only"
+description: "Global-MMLU EN eval for deu_Latn WECHSEL init model with paper tokenizer (init only)."
+
+models:
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/wechsel-init-paper-spm32k-deu_Latn"
+    name: "wechsel-init-paper-spm32k-deu_Latn"
+
+benchmarks:
+  - name: "global_mmlu_en"
+    tasks: ["global_mmlu_full_en"]
+    shots: [0]
+    seed: 42
+    device: "cuda"
+    batch_size: "auto"
+
+logger:
+  wandb:
+    project: "BA-CrossLingual-Multilingual"
+    group: "clt-multilingual-mmlu-paper-spm32k-en"
+    name: "clt_multi_mmlu_paper_deu_Latn_global_mmlu_en_init_only"
+    tags: ["clt-multilingual", "paper-spm32k", "deu_Latn", "mmlu", "global-mmlu-en", "shots-0", "init-only"]

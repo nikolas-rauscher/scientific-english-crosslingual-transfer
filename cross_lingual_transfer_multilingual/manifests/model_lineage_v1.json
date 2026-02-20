@@ -1,0 +1,1040 @@
+{
+  "schema_version": "v1",
+  "generated_at_utc": "2026-02-18T01:17:52.533417+00:00",
+  "project_root": "/netscratch/nrauscher/projects/BA-hydra",
+  "subproject_root": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual",
+  "layout": {
+    "hf_raw_root": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw",
+    "canonical_root": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1",
+    "variants_root": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1"
+  },
+  "languages": [
+    "deu_Latn",
+    "jpn_Jpan",
+    "spa_Latn",
+    "rus_Cyrl",
+    "pol_Latn",
+    "por_Latn"
+  ],
+  "setups": [
+    "hf_explicit_tok",
+    "t5base_tok",
+    "paper_spm32k_tok"
+  ],
+  "notes": [
+    "This manifest only scaffolds the target layout and records lineage intent.",
+    "No model files are copied/mutated by this script.",
+    "Use a dedicated migration/normalization step before strict evaluation."
+  ],
+  "entries": [
+    {
+      "setup": "hf_explicit_tok",
+      "language": "deu_Latn",
+      "model_name": "hf-monolingual-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-deu_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-deu_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/hf-monolingual-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/hf-monolingual-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/deu_Latn/hf-monolingual-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "deu_Latn",
+      "model_name": "hf-monolingual-continued-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-continued-deu_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-continued-deu_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/hf-monolingual-continued-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/hf-monolingual-continued-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/deu_Latn/hf-monolingual-continued-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "deu_Latn",
+      "model_name": "wechsel-init-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/wechsel-init-deu_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-deu_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/wechsel-init-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/wechsel-init-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/deu_Latn/wechsel-init-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "deu_Latn",
+      "model_name": "wechsel-continued-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/wechsel-continued-deu_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-deu_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/wechsel-continued-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/wechsel-continued-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/deu_Latn/wechsel-continued-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "jpn_Jpan",
+      "model_name": "hf-monolingual-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-jpn_Jpan",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-jpn_Jpan",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/hf-monolingual-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/hf-monolingual-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/jpn_Jpan/hf-monolingual-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "jpn_Jpan",
+      "model_name": "hf-monolingual-continued-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/jpn_Jpan/hf-monolingual-continued-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "jpn_Jpan",
+      "model_name": "wechsel-init-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-init-jpn_Jpan",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-jpn_Jpan",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/wechsel-init-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/wechsel-init-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/jpn_Jpan/wechsel-init-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "jpn_Jpan",
+      "model_name": "wechsel-continued-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-continued-jpn_Jpan",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-jpn_Jpan",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/wechsel-continued-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/wechsel-continued-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/jpn_Jpan/wechsel-continued-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "spa_Latn",
+      "model_name": "hf-monolingual-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-spa_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-spa_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/hf-monolingual-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/hf-monolingual-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/spa_Latn/hf-monolingual-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "spa_Latn",
+      "model_name": "hf-monolingual-continued-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-continued-spa_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-continued-spa_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/hf-monolingual-continued-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/hf-monolingual-continued-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/spa_Latn/hf-monolingual-continued-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "spa_Latn",
+      "model_name": "wechsel-init-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/wechsel-init-spa_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-spa_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/wechsel-init-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/wechsel-init-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/spa_Latn/wechsel-init-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "spa_Latn",
+      "model_name": "wechsel-continued-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/wechsel-continued-spa_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-spa_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/wechsel-continued-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/wechsel-continued-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/spa_Latn/wechsel-continued-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "rus_Cyrl",
+      "model_name": "hf-monolingual-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-rus_Cyrl",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-rus_Cyrl",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/hf-monolingual-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/hf-monolingual-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/rus_Cyrl/hf-monolingual-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "rus_Cyrl",
+      "model_name": "hf-monolingual-continued-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/rus_Cyrl/hf-monolingual-continued-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "rus_Cyrl",
+      "model_name": "wechsel-init-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-init-rus_Cyrl",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-rus_Cyrl",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/wechsel-init-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/wechsel-init-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/rus_Cyrl/wechsel-init-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "rus_Cyrl",
+      "model_name": "wechsel-continued-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-continued-rus_Cyrl",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-rus_Cyrl",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/wechsel-continued-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/wechsel-continued-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/rus_Cyrl/wechsel-continued-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "pol_Latn",
+      "model_name": "hf-monolingual-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-pol_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-pol_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/hf-monolingual-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/hf-monolingual-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/pol_Latn/hf-monolingual-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "pol_Latn",
+      "model_name": "hf-monolingual-continued-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-continued-pol_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-continued-pol_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/hf-monolingual-continued-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/hf-monolingual-continued-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/pol_Latn/hf-monolingual-continued-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "pol_Latn",
+      "model_name": "wechsel-init-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-init-pol_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-pol_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/wechsel-init-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/wechsel-init-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/pol_Latn/wechsel-init-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "pol_Latn",
+      "model_name": "wechsel-continued-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-continued-pol_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-pol_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/wechsel-continued-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/wechsel-continued-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/pol_Latn/wechsel-continued-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "por_Latn",
+      "model_name": "hf-monolingual-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-por_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-por_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/hf-monolingual-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/hf-monolingual-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/por_Latn/hf-monolingual-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "por_Latn",
+      "model_name": "hf-monolingual-continued-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-continued-por_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-continued-por_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/hf-monolingual-continued-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/hf-monolingual-continued-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/por_Latn/hf-monolingual-continued-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "por_Latn",
+      "model_name": "wechsel-init-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-por_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/wechsel-init-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/wechsel-init-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/por_Latn/wechsel-init-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "hf_explicit_tok",
+      "language": "por_Latn",
+      "model_name": "wechsel-continued-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-continued-por_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-por_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/wechsel-continued-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/wechsel-continued-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/hf_explicit_tok/por_Latn/wechsel-continued-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "deu_Latn",
+      "model_name": "hf-monolingual-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-deu_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-deu_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/hf-monolingual-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/hf-monolingual-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/deu_Latn/hf-monolingual-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "deu_Latn",
+      "model_name": "hf-monolingual-continued-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-continued-deu_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-continued-deu_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/hf-monolingual-continued-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/hf-monolingual-continued-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/deu_Latn/hf-monolingual-continued-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "deu_Latn",
+      "model_name": "wechsel-init-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/wechsel-init-deu_Latn",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/wechsel-init-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/wechsel-init-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/deu_Latn/wechsel-init-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "deu_Latn",
+      "model_name": "wechsel-continued-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/wechsel-continued-deu_Latn",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/wechsel-continued-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/wechsel-continued-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/deu_Latn/wechsel-continued-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "jpn_Jpan",
+      "model_name": "hf-monolingual-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-jpn_Jpan",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-jpn_Jpan",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/hf-monolingual-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/hf-monolingual-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/jpn_Jpan/hf-monolingual-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "jpn_Jpan",
+      "model_name": "hf-monolingual-continued-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/jpn_Jpan/hf-monolingual-continued-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "jpn_Jpan",
+      "model_name": "wechsel-init-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-init-jpn_Jpan",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/wechsel-init-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/wechsel-init-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/jpn_Jpan/wechsel-init-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "jpn_Jpan",
+      "model_name": "wechsel-continued-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-continued-jpn_Jpan",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/wechsel-continued-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/wechsel-continued-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/jpn_Jpan/wechsel-continued-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "spa_Latn",
+      "model_name": "hf-monolingual-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-spa_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-spa_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/hf-monolingual-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/hf-monolingual-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/spa_Latn/hf-monolingual-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "spa_Latn",
+      "model_name": "hf-monolingual-continued-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-continued-spa_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-continued-spa_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/hf-monolingual-continued-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/hf-monolingual-continued-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/spa_Latn/hf-monolingual-continued-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "spa_Latn",
+      "model_name": "wechsel-init-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/wechsel-init-spa_Latn",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/wechsel-init-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/wechsel-init-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/spa_Latn/wechsel-init-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "spa_Latn",
+      "model_name": "wechsel-continued-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/wechsel-continued-spa_Latn",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/wechsel-continued-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/wechsel-continued-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/spa_Latn/wechsel-continued-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "rus_Cyrl",
+      "model_name": "hf-monolingual-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-rus_Cyrl",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-rus_Cyrl",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/hf-monolingual-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/hf-monolingual-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/rus_Cyrl/hf-monolingual-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "rus_Cyrl",
+      "model_name": "hf-monolingual-continued-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/rus_Cyrl/hf-monolingual-continued-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "rus_Cyrl",
+      "model_name": "wechsel-init-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-init-rus_Cyrl",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/wechsel-init-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/wechsel-init-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/rus_Cyrl/wechsel-init-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "rus_Cyrl",
+      "model_name": "wechsel-continued-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-continued-rus_Cyrl",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/wechsel-continued-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/wechsel-continued-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/rus_Cyrl/wechsel-continued-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "pol_Latn",
+      "model_name": "hf-monolingual-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-pol_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-pol_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/hf-monolingual-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/hf-monolingual-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/pol_Latn/hf-monolingual-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "pol_Latn",
+      "model_name": "hf-monolingual-continued-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-continued-pol_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-continued-pol_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/hf-monolingual-continued-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/hf-monolingual-continued-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/pol_Latn/hf-monolingual-continued-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "pol_Latn",
+      "model_name": "wechsel-init-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-init-pol_Latn",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/wechsel-init-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/wechsel-init-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/pol_Latn/wechsel-init-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "pol_Latn",
+      "model_name": "wechsel-continued-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-continued-pol_Latn",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/wechsel-continued-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/wechsel-continued-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/pol_Latn/wechsel-continued-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "por_Latn",
+      "model_name": "hf-monolingual-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-por_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-por_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/hf-monolingual-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/hf-monolingual-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/por_Latn/hf-monolingual-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "por_Latn",
+      "model_name": "hf-monolingual-continued-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-continued-por_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-continued-por_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/hf-monolingual-continued-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/hf-monolingual-continued-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/por_Latn/hf-monolingual-continued-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "por_Latn",
+      "model_name": "wechsel-init-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/wechsel-init-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/wechsel-init-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/por_Latn/wechsel-init-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "t5base_tok",
+      "language": "por_Latn",
+      "model_name": "wechsel-continued-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-continued-por_Latn",
+      "tokenizer_path_current": "t5-base",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/wechsel-continued-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/wechsel-continued-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/t5base_tok/por_Latn/wechsel-continued-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "deu_Latn",
+      "model_name": "hf-monolingual-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-deu_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-deu_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/hf-monolingual-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/hf-monolingual-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/deu_Latn/hf-monolingual-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "deu_Latn",
+      "model_name": "hf-monolingual-continued-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-continued-deu_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/hf-monolingual-continued-deu_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/hf-monolingual-continued-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/hf-monolingual-continued-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/deu_Latn/hf-monolingual-continued-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "deu_Latn",
+      "model_name": "wechsel-init-paper-spm32k-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/wechsel-init-paper-spm32k-deu_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/wechsel-init-paper-spm32k-deu_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/wechsel-init-paper-spm32k-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/wechsel-init-paper-spm32k-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/deu_Latn/wechsel-init-paper-spm32k-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "deu_Latn",
+      "model_name": "wechsel-continued-paper-spm32k-deu_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/wechsel-continued-paper-spm32k-deu_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/deu_Latn/wechsel-continued-paper-spm32k-deu_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/deu_Latn/wechsel-continued-paper-spm32k-deu_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/deu_Latn/wechsel-continued-paper-spm32k-deu_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/deu_Latn/wechsel-continued-paper-spm32k-deu_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "jpn_Jpan",
+      "model_name": "hf-monolingual-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-jpn_Jpan",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-jpn_Jpan",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/hf-monolingual-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/hf-monolingual-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/jpn_Jpan/hf-monolingual-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "jpn_Jpan",
+      "model_name": "hf-monolingual-continued-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/hf-monolingual-continued-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/jpn_Jpan/hf-monolingual-continued-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "jpn_Jpan",
+      "model_name": "wechsel-init-paper-spm32k-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-init-paper-spm32k-jpn_Jpan",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-init-paper-spm32k-jpn_Jpan",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/wechsel-init-paper-spm32k-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/wechsel-init-paper-spm32k-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/jpn_Jpan/wechsel-init-paper-spm32k-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "jpn_Jpan",
+      "model_name": "wechsel-continued-paper-spm32k-jpn_Jpan",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-continued-paper-spm32k-jpn_Jpan",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-continued-paper-spm32k-jpn_Jpan",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/jpn_Jpan/wechsel-continued-paper-spm32k-jpn_Jpan",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/jpn_Jpan/wechsel-continued-paper-spm32k-jpn_Jpan",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/jpn_Jpan/wechsel-continued-paper-spm32k-jpn_Jpan"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "spa_Latn",
+      "model_name": "hf-monolingual-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-spa_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-spa_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/hf-monolingual-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/hf-monolingual-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/spa_Latn/hf-monolingual-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "spa_Latn",
+      "model_name": "hf-monolingual-continued-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-continued-spa_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/hf-monolingual-continued-spa_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/hf-monolingual-continued-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/hf-monolingual-continued-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/spa_Latn/hf-monolingual-continued-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "spa_Latn",
+      "model_name": "wechsel-init-paper-spm32k-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/wechsel-init-paper-spm32k-spa_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/wechsel-init-paper-spm32k-spa_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/wechsel-init-paper-spm32k-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/wechsel-init-paper-spm32k-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/spa_Latn/wechsel-init-paper-spm32k-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "spa_Latn",
+      "model_name": "wechsel-continued-paper-spm32k-spa_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/wechsel-continued-paper-spm32k-spa_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/spa_Latn/wechsel-continued-paper-spm32k-spa_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/spa_Latn/wechsel-continued-paper-spm32k-spa_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/spa_Latn/wechsel-continued-paper-spm32k-spa_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/spa_Latn/wechsel-continued-paper-spm32k-spa_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "rus_Cyrl",
+      "model_name": "hf-monolingual-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-rus_Cyrl",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-rus_Cyrl",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/hf-monolingual-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/hf-monolingual-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/rus_Cyrl/hf-monolingual-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "rus_Cyrl",
+      "model_name": "hf-monolingual-continued-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/hf-monolingual-continued-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/rus_Cyrl/hf-monolingual-continued-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "rus_Cyrl",
+      "model_name": "wechsel-init-paper-spm32k-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-init-paper-spm32k-rus_Cyrl",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-init-paper-spm32k-rus_Cyrl",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/wechsel-init-paper-spm32k-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/wechsel-init-paper-spm32k-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/rus_Cyrl/wechsel-init-paper-spm32k-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "rus_Cyrl",
+      "model_name": "wechsel-continued-paper-spm32k-rus_Cyrl",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-continued-paper-spm32k-rus_Cyrl",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-continued-paper-spm32k-rus_Cyrl",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/rus_Cyrl/wechsel-continued-paper-spm32k-rus_Cyrl",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/rus_Cyrl/wechsel-continued-paper-spm32k-rus_Cyrl",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/rus_Cyrl/wechsel-continued-paper-spm32k-rus_Cyrl"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "pol_Latn",
+      "model_name": "hf-monolingual-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-pol_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-pol_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/hf-monolingual-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/hf-monolingual-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/pol_Latn/hf-monolingual-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "pol_Latn",
+      "model_name": "hf-monolingual-continued-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-continued-pol_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-continued-pol_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/hf-monolingual-continued-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/hf-monolingual-continued-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/pol_Latn/hf-monolingual-continued-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "pol_Latn",
+      "model_name": "wechsel-init-paper-spm32k-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-init-paper-spm32k-pol_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-init-paper-spm32k-pol_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/wechsel-init-paper-spm32k-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/wechsel-init-paper-spm32k-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/pol_Latn/wechsel-init-paper-spm32k-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "pol_Latn",
+      "model_name": "wechsel-continued-paper-spm32k-pol_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-continued-paper-spm32k-pol_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-continued-paper-spm32k-pol_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/pol_Latn/wechsel-continued-paper-spm32k-pol_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/pol_Latn/wechsel-continued-paper-spm32k-pol_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/pol_Latn/wechsel-continued-paper-spm32k-pol_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "por_Latn",
+      "model_name": "hf-monolingual-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-por_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-por_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/hf-monolingual-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/hf-monolingual-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/por_Latn/hf-monolingual-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "por_Latn",
+      "model_name": "hf-monolingual-continued-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-continued-por_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-continued-por_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/hf-monolingual-continued-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/hf-monolingual-continued-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/por_Latn/hf-monolingual-continued-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "por_Latn",
+      "model_name": "wechsel-init-paper-spm32k-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-paper-spm32k-por_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-paper-spm32k-por_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/wechsel-init-paper-spm32k-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/wechsel-init-paper-spm32k-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/por_Latn/wechsel-init-paper-spm32k-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    },
+    {
+      "setup": "paper_spm32k_tok",
+      "language": "por_Latn",
+      "model_name": "wechsel-continued-paper-spm32k-por_Latn",
+      "source_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-continued-paper-spm32k-por_Latn",
+      "tokenizer_path_current": "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-continued-paper-spm32k-por_Latn",
+      "planned_paths": {
+        "hf_raw": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/hf_raw/por_Latn/wechsel-continued-paper-spm32k-por_Latn",
+        "canonical_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/canonical_v1/por_Latn/wechsel-continued-paper-spm32k-por_Latn",
+        "eval_variant_v1": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/models/eval_variants_v1/paper_spm32k_tok/por_Latn/wechsel-continued-paper-spm32k-por_Latn"
+      },
+      "status": "canonicalized",
+      "canonicalized_at_utc": "2026-02-18T03:27:57.707259+00:00"
+    }
+  ],
+  "last_canonicalization_run_utc": "2026-02-18T03:27:57.707259+00:00"
+}

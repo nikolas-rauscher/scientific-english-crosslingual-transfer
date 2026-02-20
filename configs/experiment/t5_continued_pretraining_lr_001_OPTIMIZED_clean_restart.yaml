@@ -1,0 +1,109 @@
+# @package _global_
+
+# T5 Continued Pretraining - Clean Restart with OPTIMIZED COLLATOR
+# LR 0.001, Gradient Clip 1.0, Inverse Sqrt Schedule, 60k Warmup
+# Uses exact T5 formula (1.109x expansion, target_length=114) - OPTIMIZED
+# Full epoch - 4-GPU H100-80GB
+
+defaults:
+  - override /data: t5_pretraining_text_windows
+  - override /model: t5_base
+  - override /trainer: gpu
+  - override /logger: wandb
+  - override /callbacks: default
+
+experiment_name: t5_continued_pretraining_lr_001_OPTIMIZED_clean_restart
+
+tags: ["t5-base", "4gpu", "text-windows", "h100", "full-epoch", "lr-001", "clip-1.0", "inverse-sqrt", "OPTIMIZED", "t5-formula"]
+
+seed: 42
+
+# OPTIMIZED clean restart log directory 
+hydra:
+  run:
+    dir: pretraining_logs_lr_001_OPTIMIZED_clean_restart/train/runs/${now:%Y-%m-%d_%H-%M-%S}
+
+test: false
+train: true
+
+data:
+  # Point to validated sliding windows dataset (50% overlap, legacy)
+  data_dir: /fscratch/nrauscher/projects/BA-hydra/data/validated_sliding_windows/validated
+  batch_size: 96
+  limit_files: -1
+  limit_documents: -1
+  train_val_split: [0.999615, 0.000385]  # 100k validation docs
+  num_workers: 4
+  prefetch_factor: 2
+  persistent_workers: true
+  seed: 42
+  use_optimized_collator: true  # NEW: Enable T5-formula mode
+
+trainer:
+  max_epochs: 3
+  max_steps: -1
+  precision: bf16-mixed
+  accumulate_grad_batches: 1  # Effective batch = 48 * 4 * 2 = 384
+  devices: 4
+  accelerator: gpu
+  strategy: ddp
+  gradient_clip_val: 1.0
+  check_val_every_n_epoch: null
+  limit_val_batches: null
+  val_check_interval: 5000  # Every 2.5k optimizer steps
+  log_every_n_steps: 1
+  use_distributed_sampler: false
+
+model:
+  t5_model:
+    enable_gradient_checkpointing: true
+
+  optimizer:
+    _target_: transformers.optimization.Adafactor
+    lr: 1e-3  # Aggressive 0.001 learning rate (SciFive optimized)
+    relative_step: false
+    warmup_init: false
+    scale_parameter: false
+    _partial_: true
+    betas: null
+    weight_decay: null
+
+  scheduler:
+    _target_: transformers.optimization.get_inverse_sqrt_schedule
+    num_warmup_steps: 20000  # Same as original 0.001 run for fair comparison
+    _partial_: true
+
+callbacks:
+  model_checkpoint:
+    dirpath: "${hydra:runtime.output_dir}/checkpoints/best/"
+    filename: "step-{step:06d}-val_ppl-{val/perplexity:.5f}"
+    save_top_k: 10
+    monitor: "val/perplexity"
+    mode: "min"
+    save_last: true
+    save_on_train_epoch_end: false
+    save_weights_only: false
+  step_checkpoint:
+    _target_: lightning.pytorch.callbacks.ModelCheckpoint
+    dirpath: "${hydra:runtime.output_dir}/checkpoints/steps/"
+    filename: "step-{step:06d}"
+    every_n_train_steps: 5000
+    save_last: true
+    save_top_k: -1
+    monitor: "step"
+    mode: "max"
+    save_weights_only: false
+  early_stopping:
+    monitor: "val/loss"
+    mode: "min"
+    patience: 90
+    min_delta: 0.01
+    check_finite: false
+    verbose: true
+  rich_progress_bar: null
+
+logger:
+  wandb:
+    group: "H100-4GPU-continued-pretraining-OPTIMIZED"  # NEW: Separate group
+    name: "lr-001-OPTIMIZED-clean-restart-warmup20k"  # NEW: Clearly marked
+    tags: ["lr-001", "clip-1.0", "inverse-sqrt", "warmup-20k", "OPTIMIZED", "t5-formula", "clean-restart"]

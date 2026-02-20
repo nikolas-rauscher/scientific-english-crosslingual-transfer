@@ -1,0 +1,4 @@
+[submodule "external/datatrove"]
+  path = external/datatrove
+  url  = git@github.com:nikolas-rauscher/BA-datatrove.git
+  branch = main

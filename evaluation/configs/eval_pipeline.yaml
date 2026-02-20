@@ -1,0 +1,29 @@
+# Automated Evaluation Pipeline Configuration
+
+# Paths (relative to project root)
+project_root: "/netscratch/nrauscher/projects/BA-hydra"
+eval_models_dir: "evaluation/models"
+eval_results_dir: "evaluation/results/automated"
+logs_dir: "clean_restart_logs/train/runs"
+cache_dir: "data"  # Use pre-downloaded MMLU datasets from data/mmlu_datasets
+
+# Evaluation settings
+shots: [0, 5]  # Few-shot configurations to test
+tasks: ["mmlu"]  # Evaluation tasks
+device: "cuda"
+batch_size: "auto"
+
+# Checkpoint detection settings
+min_steps_between_evals: 10000  # Only evaluate every 10k steps
+checkpoint_patterns:
+  - "step-step=*.ckpt"  # Pattern for your checkpoints
+  - "step-*.ckpt"
+  - "epoch-*-step-*.ckpt"
+
+# W&B logging
+wandb_project: "t5-pretraining-evaluation" 
+wandb_entity: null  # Set to your W&B username/team
+
+# Performance settings
+max_parallel_evals: 1  # Number of concurrent evaluations
+cleanup_temp_models: true  # Remove converted models after evaluation

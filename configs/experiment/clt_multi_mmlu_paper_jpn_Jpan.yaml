@@ -1,0 +1,38 @@
+# @package _global_
+
+experiment_name: "clt_multi_mmlu_paper_jpn_Jpan"
+description: "Global-MMLU paper-track A/B for jpn_Jpan (old vs paper tokenizer-trained WECHSEL)."
+
+models:
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-jpn_Jpan"
+    name: "hf-monolingual-jpn_Jpan"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/hf-monolingual-continued-jpn_Jpan"
+    name: "hf-monolingual-continued-jpn_Jpan"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-init-jpn_Jpan"
+    name: "wechsel-init-jpn_Jpan"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-continued-jpn_Jpan"
+    name: "wechsel-continued-jpn_Jpan"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-init-paper-spm32k-jpn_Jpan"
+    name: "wechsel-init-paper-spm32k-jpn_Jpan"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/jpn_Jpan/wechsel-continued-paper-spm32k-jpn_Jpan"
+    name: "wechsel-continued-paper-spm32k-jpn_Jpan"
+
+benchmarks:
+  - name: "global_mmlu_ja"
+    tasks: ["global_mmlu_full_ja"]
+    shots: [0]
+    seed: 42
+    device: "cuda"
+    batch_size: "auto"
+
+logger:
+  wandb:
+    project: "BA-CrossLingual-Multilingual"
+    group: "clt-multilingual-mmlu-paper-spm32k"
+    name: "clt_multi_mmlu_paper_jpn_Jpan"
+    tags: ["clt-multilingual", "paper-spm32k", "jpn_Jpan", "mmlu", "global-mmlu-ja", "shots-0"]

@@ -1,0 +1,42 @@
+# Generated manifests/summaries
+/data/languages/*/manifests/*.parquet
+/data/languages/*/manifests/*.json
+
+# Safety catch-all: never commit parquet artifacts from this subproject
+*.parquet
+
+# Generated doc split datasets
+/data/languages/*/splits_doc/**/*.parquet
+/data/languages/*/splits_doc/*.json
+
+# Generated sliding-window datasets
+/data/languages/*/sliding_windows/**/*.parquet
+/data/languages/*/sliding_windows/*/enriched_windows/
+/data/languages/*/sliding_windows/*/stats/
+
+# Archived data snapshots
+/data/languages/*/archive/**
+
+# Runtime artifacts
+/logs/**
+/models/**
+/results/**
+
+# Keep directory placeholders
+!/docs/.gitkeep
+!/configs/eval/.gitkeep
+!/configs/experiments/.gitkeep
+!/jobs/.gitkeep
+!/scripts/data_prep/.gitkeep
+!/scripts/transfer/.gitkeep
+!/scripts/training/.gitkeep
+!/scripts/eval/.gitkeep
+!/logs/.gitkeep
+!/models/.gitkeep
+!/results/.gitkeep
+!/data/languages/*/manifests/.gitkeep
+!/data/languages/*/splits_doc/.gitkeep
+!/data/languages/*/eval_splits/.gitkeep
+!/data/languages/*/sliding_windows/train/.gitkeep
+!/data/languages/*/sliding_windows/val/.gitkeep
+!/data/languages/*/sliding_windows/test/.gitkeep

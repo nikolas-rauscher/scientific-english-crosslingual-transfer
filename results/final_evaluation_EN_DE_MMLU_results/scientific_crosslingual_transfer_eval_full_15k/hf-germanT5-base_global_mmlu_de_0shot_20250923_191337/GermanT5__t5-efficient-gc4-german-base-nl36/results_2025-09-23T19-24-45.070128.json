@@ -1,0 +1,3233 @@
+{
+  "results": {
+    "global_mmlu_full_de": {
+      "acc,none": 0.22945449366187154,
+      "acc_stderr,none": 0.0035426913692823605,
+      "alias": "global_mmlu_full_de"
+    },
+    "global_mmlu_full_de_humanities": {
+      "acc,none": 0.24208289054197663,
+      "acc_stderr,none": 0.0062426684031394305,
+      "alias": " - global_mmlu_full_de_humanities"
+    },
+    "global_mmlu_full_de_formal_logic": {
+      "alias": "  - global_mmlu_full_de_formal_logic",
+      "acc,none": 0.2857142857142857,
+      "acc_stderr,none": 0.04040610178208841
+    },
+    "global_mmlu_full_de_high_school_european_history": {
+      "alias": "  - global_mmlu_full_de_high_school_european_history",
+      "acc,none": 0.21818181818181817,
+      "acc_stderr,none": 0.03225078108306289
+    },
+    "global_mmlu_full_de_high_school_us_history": {
+      "alias": "  - global_mmlu_full_de_high_school_us_history",
+      "acc,none": 0.25,
+      "acc_stderr,none": 0.03039153369274154
+    },
+    "global_mmlu_full_de_high_school_world_history": {
+      "alias": "  - global_mmlu_full_de_high_school_world_history",
+      "acc,none": 0.270042194092827,
+      "acc_stderr,none": 0.028900721906293426
+    },
+    "global_mmlu_full_de_international_law": {
+      "alias": "  - global_mmlu_full_de_international_law",
+      "acc,none": 0.2396694214876033,
+      "acc_stderr,none": 0.03896878985070417
+    },
+    "global_mmlu_full_de_jurisprudence": {
+      "alias": "  - global_mmlu_full_de_jurisprudence",
+      "acc,none": 0.25925925925925924,
+      "acc_stderr,none": 0.04236511258094634
+    },
+    "global_mmlu_full_de_logical_fallacies": {
+      "alias": "  - global_mmlu_full_de_logical_fallacies",
+      "acc,none": 0.22085889570552147,
+      "acc_stderr,none": 0.032591773927421776
+    },
+    "global_mmlu_full_de_moral_disputes": {
+      "alias": "  - global_mmlu_full_de_moral_disputes",
+      "acc,none": 0.24855491329479767,
+      "acc_stderr,none": 0.023267528432100174
+    },
+    "global_mmlu_full_de_moral_scenarios": {
+      "alias": "  - global_mmlu_full_de_moral_scenarios",
+      "acc,none": 0.23798882681564246,
+      "acc_stderr,none": 0.014242630070574885
+    },
+    "global_mmlu_full_de_philosophy": {
+      "alias": "  - global_mmlu_full_de_philosophy",
+      "acc,none": 0.1864951768488746,
+      "acc_stderr,none": 0.02212243977248077
+    },
+    "global_mmlu_full_de_prehistory": {
+      "alias": "  - global_mmlu_full_de_prehistory",
+      "acc,none": 0.21604938271604937,
+      "acc_stderr,none": 0.022899162918445813
+    },
+    "global_mmlu_full_de_professional_law": {
+      "alias": "  - global_mmlu_full_de_professional_law",
+      "acc,none": 0.2457627118644068,
+      "acc_stderr,none": 0.01099615663514269
+    },
+    "global_mmlu_full_de_world_religions": {
+      "alias": "  - global_mmlu_full_de_world_religions",
+      "acc,none": 0.3216374269005848,
+      "acc_stderr,none": 0.03582529442573122
+    },
+    "global_mmlu_full_de_other": {
+      "acc,none": 0.23978113936272932,
+      "acc_stderr,none": 0.00764225029165751,
+      "alias": " - global_mmlu_full_de_other"
+    },
+    "global_mmlu_full_de_business_ethics": {
+      "alias": "  - global_mmlu_full_de_business_ethics",
+      "acc,none": 0.3,
+      "acc_stderr,none": 0.046056618647183814
+    },
+    "global_mmlu_full_de_clinical_knowledge": {
+      "alias": "  - global_mmlu_full_de_clinical_knowledge",
+      "acc,none": 0.21509433962264152,
+      "acc_stderr,none": 0.025288394502891377
+    },
+    "global_mmlu_full_de_college_medicine": {
+      "alias": "  - global_mmlu_full_de_college_medicine",
+      "acc,none": 0.20809248554913296,
+      "acc_stderr,none": 0.030952890217749884
+    },
+    "global_mmlu_full_de_global_facts": {
+      "alias": "  - global_mmlu_full_de_global_facts",
+      "acc,none": 0.18,
+      "acc_stderr,none": 0.038612291966536955
+    },
+    "global_mmlu_full_de_human_aging": {
+      "alias": "  - global_mmlu_full_de_human_aging",
+      "acc,none": 0.31390134529147984,
+      "acc_stderr,none": 0.03114679648297246
+    },
+    "global_mmlu_full_de_management": {
+      "alias": "  - global_mmlu_full_de_management",
+      "acc,none": 0.17475728155339806,
+      "acc_stderr,none": 0.03760178006026621
+    },
+    "global_mmlu_full_de_marketing": {
+      "alias": "  - global_mmlu_full_de_marketing",
+      "acc,none": 0.2905982905982906,
+      "acc_stderr,none": 0.029745048572674057
+    },
+    "global_mmlu_full_de_medical_genetics": {
+      "alias": "  - global_mmlu_full_de_medical_genetics",
+      "acc,none": 0.3,
+      "acc_stderr,none": 0.046056618647183814
+    },
+    "global_mmlu_full_de_miscellaneous": {
+      "alias": "  - global_mmlu_full_de_miscellaneous",
+      "acc,none": 0.23754789272030652,
+      "acc_stderr,none": 0.015218733046150195
+    },
+    "global_mmlu_full_de_nutrition": {
+      "alias": "  - global_mmlu_full_de_nutrition",
+      "acc,none": 0.22549019607843138,
+      "acc_stderr,none": 0.023929155517351284
+    },
+    "global_mmlu_full_de_professional_accounting": {
+      "alias": "  - global_mmlu_full_de_professional_accounting",
+      "acc,none": 0.23404255319148937,
+      "acc_stderr,none": 0.025257861359432407
+    },
+    "global_mmlu_full_de_professional_medicine": {
+      "alias": "  - global_mmlu_full_de_professional_medicine",
+      "acc,none": 0.18382352941176472,
+      "acc_stderr,none": 0.02352924218519311
+    },
+    "global_mmlu_full_de_virology": {
+      "alias": "  - global_mmlu_full_de_virology",
+      "acc,none": 0.28313253012048195,
+      "acc_stderr,none": 0.03507295431370518
+    },
+    "global_mmlu_full_de_social_sciences": {
+      "acc,none": 0.2170945726356841,
+      "acc_stderr,none": 0.007428786285788536,
+      "alias": " - global_mmlu_full_de_social_sciences"
+    },
+    "global_mmlu_full_de_econometrics": {
+      "alias": "  - global_mmlu_full_de_econometrics",
+      "acc,none": 0.23684210526315788,
+      "acc_stderr,none": 0.039994238792813386
+    },
+    "global_mmlu_full_de_high_school_geography": {
+      "alias": "  - global_mmlu_full_de_high_school_geography",
+      "acc,none": 0.17676767676767677,
+      "acc_stderr,none": 0.027178752639044915
+    },
+    "global_mmlu_full_de_high_school_government_and_politics": {
+      "alias": "  - global_mmlu_full_de_high_school_government_and_politics",
+      "acc,none": 0.19689119170984457,
+      "acc_stderr,none": 0.02869787397186069
+    },
+    "global_mmlu_full_de_high_school_macroeconomics": {
+      "alias": "  - global_mmlu_full_de_high_school_macroeconomics",
+      "acc,none": 0.20256410256410257,
+      "acc_stderr,none": 0.020377660970371397
+    },
+    "global_mmlu_full_de_high_school_microeconomics": {
+      "alias": "  - global_mmlu_full_de_high_school_microeconomics",
+      "acc,none": 0.21008403361344538,
+      "acc_stderr,none": 0.026461398717471874
+    },
+    "global_mmlu_full_de_high_school_psychology": {
+      "alias": "  - global_mmlu_full_de_high_school_psychology",
+      "acc,none": 0.1926605504587156,
+      "acc_stderr,none": 0.016909276884936073
+    },
+    "global_mmlu_full_de_human_sexuality": {
+      "alias": "  - global_mmlu_full_de_human_sexuality",
+      "acc,none": 0.2595419847328244,
+      "acc_stderr,none": 0.03844876139785271
+    },
+    "global_mmlu_full_de_professional_psychology": {
+      "alias": "  - global_mmlu_full_de_professional_psychology",
+      "acc,none": 0.25,
+      "acc_stderr,none": 0.01751781884501444
+    },
+    "global_mmlu_full_de_public_relations": {
+      "alias": "  - global_mmlu_full_de_public_relations",
+      "acc,none": 0.21818181818181817,
+      "acc_stderr,none": 0.03955932861795833
+    },
+    "global_mmlu_full_de_security_studies": {
+      "alias": "  - global_mmlu_full_de_security_studies",
+      "acc,none": 0.18775510204081633,
+      "acc_stderr,none": 0.02500025603954622
+    },
+    "global_mmlu_full_de_sociology": {
+      "alias": "  - global_mmlu_full_de_sociology",
+      "acc,none": 0.24378109452736318,
+      "acc_stderr,none": 0.030360490154014652
+    },
+    "global_mmlu_full_de_us_foreign_policy": {
+      "alias": "  - global_mmlu_full_de_us_foreign_policy",
+      "acc,none": 0.28,
+      "acc_stderr,none": 0.045126085985421276
+    },
+    "global_mmlu_full_de_stem": {
+      "acc,none": 0.21249603552172533,
+      "acc_stderr,none": 0.007271218700485502,
+      "alias": " - global_mmlu_full_de_stem"
+    },
+    "global_mmlu_full_de_abstract_algebra": {
+      "alias": "  - global_mmlu_full_de_abstract_algebra",
+      "acc,none": 0.22,
+      "acc_stderr,none": 0.04163331998932269
+    },
+    "global_mmlu_full_de_anatomy": {
+      "alias": "  - global_mmlu_full_de_anatomy",
+      "acc,none": 0.18518518518518517,
+      "acc_stderr,none": 0.03355677216313142
+    },
+    "global_mmlu_full_de_astronomy": {
+      "alias": "  - global_mmlu_full_de_astronomy",
+      "acc,none": 0.17763157894736842,
+      "acc_stderr,none": 0.031103182383123398
+    },
+    "global_mmlu_full_de_college_biology": {
+      "alias": "  - global_mmlu_full_de_college_biology",
+      "acc,none": 0.2569444444444444,
+      "acc_stderr,none": 0.03653946969442099
+    },
+    "global_mmlu_full_de_college_chemistry": {
+      "alias": "  - global_mmlu_full_de_college_chemistry",
+      "acc,none": 0.2,
+      "acc_stderr,none": 0.040201512610368445
+    },
+    "global_mmlu_full_de_college_computer_science": {
+      "alias": "  - global_mmlu_full_de_college_computer_science",
+      "acc,none": 0.26,
+      "acc_stderr,none": 0.044084400227680794
+    },
+    "global_mmlu_full_de_college_mathematics": {
+      "alias": "  - global_mmlu_full_de_college_mathematics",
+      "acc,none": 0.21,
+      "acc_stderr,none": 0.040936018074033256
+    },
+    "global_mmlu_full_de_college_physics": {
+      "alias": "  - global_mmlu_full_de_college_physics",
+      "acc,none": 0.21568627450980393,
+      "acc_stderr,none": 0.040925639582376556
+    },
+    "global_mmlu_full_de_computer_security": {
+      "alias": "  - global_mmlu_full_de_computer_security",
+      "acc,none": 0.28,
+      "acc_stderr,none": 0.045126085985421276
+    },
+    "global_mmlu_full_de_conceptual_physics": {
+      "alias": "  - global_mmlu_full_de_conceptual_physics",
+      "acc,none": 0.26382978723404255,
+      "acc_stderr,none": 0.02880998985410298
+    },
+    "global_mmlu_full_de_electrical_engineering": {
+      "alias": "  - global_mmlu_full_de_electrical_engineering",
+      "acc,none": 0.2413793103448276,
+      "acc_stderr,none": 0.03565998174135302
+    },
+    "global_mmlu_full_de_elementary_mathematics": {
+      "alias": "  - global_mmlu_full_de_elementary_mathematics",
+      "acc,none": 0.20899470899470898,
+      "acc_stderr,none": 0.020940481565334835
+    },
+    "global_mmlu_full_de_high_school_biology": {
+      "alias": "  - global_mmlu_full_de_high_school_biology",
+      "acc,none": 0.1774193548387097,
+      "acc_stderr,none": 0.021732540689329265
+    },
+    "global_mmlu_full_de_high_school_chemistry": {
+      "alias": "  - global_mmlu_full_de_high_school_chemistry",
+      "acc,none": 0.15270935960591134,
+      "acc_stderr,none": 0.025308904539380624
+    },
+    "global_mmlu_full_de_high_school_computer_science": {
+      "alias": "  - global_mmlu_full_de_high_school_computer_science",
+      "acc,none": 0.25,
+      "acc_stderr,none": 0.04351941398892446
+    },
+    "global_mmlu_full_de_high_school_mathematics": {
+      "alias": "  - global_mmlu_full_de_high_school_mathematics",
+      "acc,none": 0.2111111111111111,
+      "acc_stderr,none": 0.02488211685765508
+    },
+    "global_mmlu_full_de_high_school_physics": {
+      "alias": "  - global_mmlu_full_de_high_school_physics",
+      "acc,none": 0.1986754966887417,
+      "acc_stderr,none": 0.032578473844367746
+    },
+    "global_mmlu_full_de_high_school_statistics": {
+      "alias": "  - global_mmlu_full_de_high_school_statistics",
+      "acc,none": 0.1527777777777778,
+      "acc_stderr,none": 0.02453632602613422
+    },
+    "global_mmlu_full_de_machine_learning": {
+      "alias": "  - global_mmlu_full_de_machine_learning",
+      "acc,none": 0.3125,
+      "acc_stderr,none": 0.043994650575715215
+    }
+  },
+  "groups": {
+    "global_mmlu_full_de": {
+      "acc,none": 0.22945449366187154,
+      "acc_stderr,none": 0.0035426913692823605,
+      "alias": "global_mmlu_full_de"
+    },
+    "global_mmlu_full_de_humanities": {
+      "acc,none": 0.24208289054197663,
+      "acc_stderr,none": 0.0062426684031394305,
+      "alias": " - global_mmlu_full_de_humanities"
+    },
+    "global_mmlu_full_de_other": {
+      "acc,none": 0.23978113936272932,
+      "acc_stderr,none": 0.00764225029165751,
+      "alias": " - global_mmlu_full_de_other"
+    },
+    "global_mmlu_full_de_social_sciences": {
+      "acc,none": 0.2170945726356841,
+      "acc_stderr,none": 0.007428786285788536,
+      "alias": " - global_mmlu_full_de_social_sciences"
+    },
+    "global_mmlu_full_de_stem": {
+      "acc,none": 0.21249603552172533,
+      "acc_stderr,none": 0.007271218700485502,
+      "alias": " - global_mmlu_full_de_stem"
+    }
+  },
+  "group_subtasks": {
+    "global_mmlu_full_de_humanities": [
+      "global_mmlu_full_de_professional_law",
+      "global_mmlu_full_de_international_law",
+      "global_mmlu_full_de_prehistory",
+      "global_mmlu_full_de_world_religions",
+      "global_mmlu_full_de_high_school_world_history",
+      "global_mmlu_full_de_high_school_us_history",
+      "global_mmlu_full_de_jurisprudence",
+      "global_mmlu_full_de_formal_logic",
+      "global_mmlu_full_de_logical_fallacies",
+      "global_mmlu_full_de_high_school_european_history",
+      "global_mmlu_full_de_philosophy",
+      "global_mmlu_full_de_moral_scenarios",
+      "global_mmlu_full_de_moral_disputes"
+    ],
+    "global_mmlu_full_de_social_sciences": [
+      "global_mmlu_full_de_high_school_psychology",
+      "global_mmlu_full_de_professional_psychology",
+      "global_mmlu_full_de_high_school_government_and_politics",
+      "global_mmlu_full_de_high_school_macroeconomics",
+      "global_mmlu_full_de_high_school_microeconomics",
+      "global_mmlu_full_de_econometrics",
+      "global_mmlu_full_de_high_school_geography",
+      "global_mmlu_full_de_security_studies",
+      "global_mmlu_full_de_us_foreign_policy",
+      "global_mmlu_full_de_public_relations",
+      "global_mmlu_full_de_human_sexuality",
+      "global_mmlu_full_de_sociology"
+    ],
+    "global_mmlu_full_de_other": [
+      "global_mmlu_full_de_nutrition",
+      "global_mmlu_full_de_professional_medicine",
+      "global_mmlu_full_de_college_medicine",
+      "global_mmlu_full_de_professional_accounting",
+      "global_mmlu_full_de_marketing",
+      "global_mmlu_full_de_miscellaneous",
+      "global_mmlu_full_de_business_ethics",
+      "global_mmlu_full_de_virology",
+      "global_mmlu_full_de_medical_genetics",
+      "global_mmlu_full_de_human_aging",
+      "global_mmlu_full_de_global_facts",
+      "global_mmlu_full_de_clinical_knowledge",
+      "global_mmlu_full_de_management"
+    ],
+    "global_mmlu_full_de_stem": [
+      "global_mmlu_full_de_computer_security",
+      "global_mmlu_full_de_college_biology",
+      "global_mmlu_full_de_college_mathematics",
+      "global_mmlu_full_de_conceptual_physics",
+      "global_mmlu_full_de_elementary_mathematics",
+      "global_mmlu_full_de_astronomy",
+      "global_mmlu_full_de_high_school_physics",
+      "global_mmlu_full_de_machine_learning",
+      "global_mmlu_full_de_college_chemistry",
+      "global_mmlu_full_de_high_school_chemistry",
+      "global_mmlu_full_de_college_computer_science",
+      "global_mmlu_full_de_high_school_computer_science",
+      "global_mmlu_full_de_high_school_mathematics",
+      "global_mmlu_full_de_abstract_algebra",
+      "global_mmlu_full_de_high_school_biology",
+      "global_mmlu_full_de_electrical_engineering",
+      "global_mmlu_full_de_college_physics",
+      "global_mmlu_full_de_anatomy",
+      "global_mmlu_full_de_high_school_statistics"
+    ],
+    "global_mmlu_full_de": [
+      "global_mmlu_full_de_stem",
+      "global_mmlu_full_de_other",
+      "global_mmlu_full_de_social_sciences",
+      "global_mmlu_full_de_humanities"
+    ]
+  },
+  "configs": {
+    "global_mmlu_full_de_abstract_algebra": {
+      "task": "global_mmlu_full_de_abstract_algebra",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901481a9e0>, subject='abstract_algebra')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_anatomy": {
+      "task": "global_mmlu_full_de_anatomy",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901481a0e0>, subject='anatomy')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_astronomy": {
+      "task": "global_mmlu_full_de_astronomy",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x759014819a20>, subject='astronomy')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_business_ethics": {
+      "task": "global_mmlu_full_de_business_ethics",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bf9a0>, subject='business_ethics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_clinical_knowledge": {
+      "task": "global_mmlu_full_de_clinical_knowledge",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3be7a0>, subject='clinical_knowledge')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_college_biology": {
+      "task": "global_mmlu_full_de_college_biology",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901481ac20>, subject='college_biology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_college_chemistry": {
+      "task": "global_mmlu_full_de_college_chemistry",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7590148181f0>, subject='college_chemistry')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_college_computer_science": {
+      "task": "global_mmlu_full_de_college_computer_science",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x759014818310>, subject='college_computer_science')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_college_mathematics": {
+      "task": "global_mmlu_full_de_college_mathematics",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c195510>, subject='college_mathematics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_college_medicine": {
+      "task": "global_mmlu_full_de_college_medicine",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bcdc0>, subject='college_medicine')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_college_physics": {
+      "task": "global_mmlu_full_de_college_physics",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901481a320>, subject='college_physics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_computer_security": {
+      "task": "global_mmlu_full_de_computer_security",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901481bb50>, subject='computer_security')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_conceptual_physics": {
+      "task": "global_mmlu_full_de_conceptual_physics",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c195360>, subject='conceptual_physics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_econometrics": {
+      "task": "global_mmlu_full_de_econometrics",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bd750>, subject='econometrics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_electrical_engineering": {
+      "task": "global_mmlu_full_de_electrical_engineering",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x759014818550>, subject='electrical_engineering')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_elementary_mathematics": {
+      "task": "global_mmlu_full_de_elementary_mathematics",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901481b760>, subject='elementary_mathematics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_formal_logic": {
+      "task": "global_mmlu_full_de_formal_logic",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f419ff40>, subject='formal_logic')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_global_facts": {
+      "task": "global_mmlu_full_de_global_facts",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bff40>, subject='global_facts')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_biology": {
+      "task": "global_mmlu_full_de_high_school_biology",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x759014818790>, subject='high_school_biology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_chemistry": {
+      "task": "global_mmlu_full_de_high_school_chemistry",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901481b7f0>, subject='high_school_chemistry')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_computer_science": {
+      "task": "global_mmlu_full_de_high_school_computer_science",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901481a290>, subject='high_school_computer_science')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_european_history": {
+      "task": "global_mmlu_full_de_high_school_european_history",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f4619000>, subject='high_school_european_history')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_geography": {
+      "task": "global_mmlu_full_de_high_school_geography",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bcc10>, subject='high_school_geography')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_government_and_politics": {
+      "task": "global_mmlu_full_de_high_school_government_and_politics",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3becb0>, subject='high_school_government_and_politics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_macroeconomics": {
+      "task": "global_mmlu_full_de_high_school_macroeconomics",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f4619900>, subject='high_school_macroeconomics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_mathematics": {
+      "task": "global_mmlu_full_de_high_school_mathematics",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901481b130>, subject='high_school_mathematics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_microeconomics": {
+      "task": "global_mmlu_full_de_high_school_microeconomics",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bc790>, subject='high_school_microeconomics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_physics": {
+      "task": "global_mmlu_full_de_high_school_physics",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x759014818dc0>, subject='high_school_physics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_psychology": {
+      "task": "global_mmlu_full_de_high_school_psychology",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bf010>, subject='high_school_psychology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_statistics": {
+      "task": "global_mmlu_full_de_high_school_statistics",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3be290>, subject='high_school_statistics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_us_history": {
+      "task": "global_mmlu_full_de_high_school_us_history",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f4619480>, subject='high_school_us_history')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_high_school_world_history": {
+      "task": "global_mmlu_full_de_high_school_world_history",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f461a830>, subject='high_school_world_history')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_human_aging": {
+      "task": "global_mmlu_full_de_human_aging",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bf880>, subject='human_aging')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_human_sexuality": {
+      "task": "global_mmlu_full_de_human_sexuality",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f4618c10>, subject='human_sexuality')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_international_law": {
+      "task": "global_mmlu_full_de_international_law",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f46197e0>, subject='international_law')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_jurisprudence": {
+      "task": "global_mmlu_full_de_jurisprudence",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f4618d30>, subject='jurisprudence')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_logical_fallacies": {
+      "task": "global_mmlu_full_de_logical_fallacies",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f461a3b0>, subject='logical_fallacies')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_machine_learning": {
+      "task": "global_mmlu_full_de_machine_learning",
+      "tag": "global_mmlu_full_de_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901481bd90>, subject='machine_learning')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_management": {
+      "task": "global_mmlu_full_de_management",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bf5b0>, subject='management')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_marketing": {
+      "task": "global_mmlu_full_de_marketing",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bde10>, subject='marketing')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_medical_genetics": {
+      "task": "global_mmlu_full_de_medical_genetics",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3beef0>, subject='medical_genetics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_miscellaneous": {
+      "task": "global_mmlu_full_de_miscellaneous",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bef80>, subject='miscellaneous')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_moral_disputes": {
+      "task": "global_mmlu_full_de_moral_disputes",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f419feb0>, subject='moral_disputes')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_moral_scenarios": {
+      "task": "global_mmlu_full_de_moral_scenarios",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f4a4c700>, subject='moral_scenarios')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_nutrition": {
+      "task": "global_mmlu_full_de_nutrition",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x759014818040>, subject='nutrition')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_philosophy": {
+      "task": "global_mmlu_full_de_philosophy",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f4650430>, subject='philosophy')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_prehistory": {
+      "task": "global_mmlu_full_de_prehistory",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f461bd00>, subject='prehistory')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_professional_accounting": {
+      "task": "global_mmlu_full_de_professional_accounting",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x759014819120>, subject='professional_accounting')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_professional_law": {
+      "task": "global_mmlu_full_de_professional_law",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f461add0>, subject='professional_law')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_professional_medicine": {
+      "task": "global_mmlu_full_de_professional_medicine",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7590148196c0>, subject='professional_medicine')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_professional_psychology": {
+      "task": "global_mmlu_full_de_professional_psychology",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3bc9d0>, subject='professional_psychology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_public_relations": {
+      "task": "global_mmlu_full_de_public_relations",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f46189d0>, subject='public_relations')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_security_studies": {
+      "task": "global_mmlu_full_de_security_studies",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f4619750>, subject='security_studies')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_sociology": {
+      "task": "global_mmlu_full_de_sociology",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f4618b80>, subject='sociology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_us_foreign_policy": {
+      "task": "global_mmlu_full_de_us_foreign_policy",
+      "tag": "global_mmlu_full_de_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f461bac0>, subject='us_foreign_policy')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_virology": {
+      "task": "global_mmlu_full_de_virology",
+      "tag": "global_mmlu_full_de_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x75901c3be560>, subject='virology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    },
+    "global_mmlu_full_de_world_religions": {
+      "task": "global_mmlu_full_de_world_religions",
+      "tag": "global_mmlu_full_de_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "de",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7592f461b9a0>, subject='world_religions')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "GermanT5/t5-efficient-gc4-german-base-nl36"
+      }
+    }
+  },
+  "versions": {
+    "global_mmlu_full_de": 0.0,
+    "global_mmlu_full_de_abstract_algebra": 0.0,
+    "global_mmlu_full_de_anatomy": 0.0,
+    "global_mmlu_full_de_astronomy": 0.0,
+    "global_mmlu_full_de_business_ethics": 0.0,
+    "global_mmlu_full_de_clinical_knowledge": 0.0,
+    "global_mmlu_full_de_college_biology": 0.0,
+    "global_mmlu_full_de_college_chemistry": 0.0,
+    "global_mmlu_full_de_college_computer_science": 0.0,
+    "global_mmlu_full_de_college_mathematics": 0.0,
+    "global_mmlu_full_de_college_medicine": 0.0,
+    "global_mmlu_full_de_college_physics": 0.0,
+    "global_mmlu_full_de_computer_security": 0.0,
+    "global_mmlu_full_de_conceptual_physics": 0.0,
+    "global_mmlu_full_de_econometrics": 0.0,
+    "global_mmlu_full_de_electrical_engineering": 0.0,
+    "global_mmlu_full_de_elementary_mathematics": 0.0,
+    "global_mmlu_full_de_formal_logic": 0.0,
+    "global_mmlu_full_de_global_facts": 0.0,
+    "global_mmlu_full_de_high_school_biology": 0.0,
+    "global_mmlu_full_de_high_school_chemistry": 0.0,
+    "global_mmlu_full_de_high_school_computer_science": 0.0,
+    "global_mmlu_full_de_high_school_european_history": 0.0,
+    "global_mmlu_full_de_high_school_geography": 0.0,
+    "global_mmlu_full_de_high_school_government_and_politics": 0.0,
+    "global_mmlu_full_de_high_school_macroeconomics": 0.0,
+    "global_mmlu_full_de_high_school_mathematics": 0.0,
+    "global_mmlu_full_de_high_school_microeconomics": 0.0,
+    "global_mmlu_full_de_high_school_physics": 0.0,
+    "global_mmlu_full_de_high_school_psychology": 0.0,
+    "global_mmlu_full_de_high_school_statistics": 0.0,
+    "global_mmlu_full_de_high_school_us_history": 0.0,
+    "global_mmlu_full_de_high_school_world_history": 0.0,
+    "global_mmlu_full_de_human_aging": 0.0,
+    "global_mmlu_full_de_human_sexuality": 0.0,
+    "global_mmlu_full_de_humanities": 0.0,
+    "global_mmlu_full_de_international_law": 0.0,
+    "global_mmlu_full_de_jurisprudence": 0.0,
+    "global_mmlu_full_de_logical_fallacies": 0.0,
+    "global_mmlu_full_de_machine_learning": 0.0,
+    "global_mmlu_full_de_management": 0.0,
+    "global_mmlu_full_de_marketing": 0.0,
+    "global_mmlu_full_de_medical_genetics": 0.0,
+    "global_mmlu_full_de_miscellaneous": 0.0,
+    "global_mmlu_full_de_moral_disputes": 0.0,
+    "global_mmlu_full_de_moral_scenarios": 0.0,
+    "global_mmlu_full_de_nutrition": 0.0,
+    "global_mmlu_full_de_other": 0.0,
+    "global_mmlu_full_de_philosophy": 0.0,
+    "global_mmlu_full_de_prehistory": 0.0,
+    "global_mmlu_full_de_professional_accounting": 0.0,
+    "global_mmlu_full_de_professional_law": 0.0,
+    "global_mmlu_full_de_professional_medicine": 0.0,
+    "global_mmlu_full_de_professional_psychology": 0.0,
+    "global_mmlu_full_de_public_relations": 0.0,
+    "global_mmlu_full_de_security_studies": 0.0,
+    "global_mmlu_full_de_social_sciences": 0.0,
+    "global_mmlu_full_de_sociology": 0.0,
+    "global_mmlu_full_de_stem": 0.0,
+    "global_mmlu_full_de_us_foreign_policy": 0.0,
+    "global_mmlu_full_de_virology": 0.0,
+    "global_mmlu_full_de_world_religions": 0.0
+  },
+  "n-shot": {
+    "global_mmlu_full_de_abstract_algebra": 0,
+    "global_mmlu_full_de_anatomy": 0,
+    "global_mmlu_full_de_astronomy": 0,
+    "global_mmlu_full_de_business_ethics": 0,
+    "global_mmlu_full_de_clinical_knowledge": 0,
+    "global_mmlu_full_de_college_biology": 0,
+    "global_mmlu_full_de_college_chemistry": 0,
+    "global_mmlu_full_de_college_computer_science": 0,
+    "global_mmlu_full_de_college_mathematics": 0,
+    "global_mmlu_full_de_college_medicine": 0,
+    "global_mmlu_full_de_college_physics": 0,
+    "global_mmlu_full_de_computer_security": 0,
+    "global_mmlu_full_de_conceptual_physics": 0,
+    "global_mmlu_full_de_econometrics": 0,
+    "global_mmlu_full_de_electrical_engineering": 0,
+    "global_mmlu_full_de_elementary_mathematics": 0,
+    "global_mmlu_full_de_formal_logic": 0,
+    "global_mmlu_full_de_global_facts": 0,
+    "global_mmlu_full_de_high_school_biology": 0,
+    "global_mmlu_full_de_high_school_chemistry": 0,
+    "global_mmlu_full_de_high_school_computer_science": 0,
+    "global_mmlu_full_de_high_school_european_history": 0,
+    "global_mmlu_full_de_high_school_geography": 0,
+    "global_mmlu_full_de_high_school_government_and_politics": 0,
+    "global_mmlu_full_de_high_school_macroeconomics": 0,
+    "global_mmlu_full_de_high_school_mathematics": 0,
+    "global_mmlu_full_de_high_school_microeconomics": 0,
+    "global_mmlu_full_de_high_school_physics": 0,
+    "global_mmlu_full_de_high_school_psychology": 0,
+    "global_mmlu_full_de_high_school_statistics": 0,
+    "global_mmlu_full_de_high_school_us_history": 0,
+    "global_mmlu_full_de_high_school_world_history": 0,
+    "global_mmlu_full_de_human_aging": 0,
+    "global_mmlu_full_de_human_sexuality": 0,
+    "global_mmlu_full_de_international_law": 0,
+    "global_mmlu_full_de_jurisprudence": 0,
+    "global_mmlu_full_de_logical_fallacies": 0,
+    "global_mmlu_full_de_machine_learning": 0,
+    "global_mmlu_full_de_management": 0,
+    "global_mmlu_full_de_marketing": 0,
+    "global_mmlu_full_de_medical_genetics": 0,
+    "global_mmlu_full_de_miscellaneous": 0,
+    "global_mmlu_full_de_moral_disputes": 0,
+    "global_mmlu_full_de_moral_scenarios": 0,
+    "global_mmlu_full_de_nutrition": 0,
+    "global_mmlu_full_de_philosophy": 0,
+    "global_mmlu_full_de_prehistory": 0,
+    "global_mmlu_full_de_professional_accounting": 0,
+    "global_mmlu_full_de_professional_law": 0,
+    "global_mmlu_full_de_professional_medicine": 0,
+    "global_mmlu_full_de_professional_psychology": 0,
+    "global_mmlu_full_de_public_relations": 0,
+    "global_mmlu_full_de_security_studies": 0,
+    "global_mmlu_full_de_sociology": 0,
+    "global_mmlu_full_de_us_foreign_policy": 0,
+    "global_mmlu_full_de_virology": 0,
+    "global_mmlu_full_de_world_religions": 0
+  },
+  "higher_is_better": {
+    "global_mmlu_full_de": {
+      "acc": true
+    },
+    "global_mmlu_full_de_abstract_algebra": {
+      "acc": true
+    },
+    "global_mmlu_full_de_anatomy": {
+      "acc": true
+    },
+    "global_mmlu_full_de_astronomy": {
+      "acc": true
+    },
+    "global_mmlu_full_de_business_ethics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_clinical_knowledge": {
+      "acc": true
+    },
+    "global_mmlu_full_de_college_biology": {
+      "acc": true
+    },
+    "global_mmlu_full_de_college_chemistry": {
+      "acc": true
+    },
+    "global_mmlu_full_de_college_computer_science": {
+      "acc": true
+    },
+    "global_mmlu_full_de_college_mathematics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_college_medicine": {
+      "acc": true
+    },
+    "global_mmlu_full_de_college_physics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_computer_security": {
+      "acc": true
+    },
+    "global_mmlu_full_de_conceptual_physics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_econometrics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_electrical_engineering": {
+      "acc": true
+    },
+    "global_mmlu_full_de_elementary_mathematics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_formal_logic": {
+      "acc": true
+    },
+    "global_mmlu_full_de_global_facts": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_biology": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_chemistry": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_computer_science": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_european_history": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_geography": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_government_and_politics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_macroeconomics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_mathematics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_microeconomics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_physics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_psychology": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_statistics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_us_history": {
+      "acc": true
+    },
+    "global_mmlu_full_de_high_school_world_history": {
+      "acc": true
+    },
+    "global_mmlu_full_de_human_aging": {
+      "acc": true
+    },
+    "global_mmlu_full_de_human_sexuality": {
+      "acc": true
+    },
+    "global_mmlu_full_de_humanities": {
+      "acc": true
+    },
+    "global_mmlu_full_de_international_law": {
+      "acc": true
+    },
+    "global_mmlu_full_de_jurisprudence": {
+      "acc": true
+    },
+    "global_mmlu_full_de_logical_fallacies": {
+      "acc": true
+    },
+    "global_mmlu_full_de_machine_learning": {
+      "acc": true
+    },
+    "global_mmlu_full_de_management": {
+      "acc": true
+    },
+    "global_mmlu_full_de_marketing": {
+      "acc": true
+    },
+    "global_mmlu_full_de_medical_genetics": {
+      "acc": true
+    },
+    "global_mmlu_full_de_miscellaneous": {
+      "acc": true
+    },
+    "global_mmlu_full_de_moral_disputes": {
+      "acc": true
+    },
+    "global_mmlu_full_de_moral_scenarios": {
+      "acc": true
+    },
+    "global_mmlu_full_de_nutrition": {
+      "acc": true
+    },
+    "global_mmlu_full_de_other": {
+      "acc": true
+    },
+    "global_mmlu_full_de_philosophy": {
+      "acc": true
+    },
+    "global_mmlu_full_de_prehistory": {
+      "acc": true
+    },
+    "global_mmlu_full_de_professional_accounting": {
+      "acc": true
+    },
+    "global_mmlu_full_de_professional_law": {
+      "acc": true
+    },
+    "global_mmlu_full_de_professional_medicine": {
+      "acc": true
+    },
+    "global_mmlu_full_de_professional_psychology": {
+      "acc": true
+    },
+    "global_mmlu_full_de_public_relations": {
+      "acc": true
+    },
+    "global_mmlu_full_de_security_studies": {
+      "acc": true
+    },
+    "global_mmlu_full_de_social_sciences": {
+      "acc": true
+    },
+    "global_mmlu_full_de_sociology": {
+      "acc": true
+    },
+    "global_mmlu_full_de_stem": {
+      "acc": true
+    },
+    "global_mmlu_full_de_us_foreign_policy": {
+      "acc": true
+    },
+    "global_mmlu_full_de_virology": {
+      "acc": true
+    },
+    "global_mmlu_full_de_world_religions": {
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "global_mmlu_full_de_computer_security": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_de_college_biology": {
+      "original": 144,
+      "effective": 144
+    },
+    "global_mmlu_full_de_college_mathematics": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_de_conceptual_physics": {
+      "original": 235,
+      "effective": 235
+    },
+    "global_mmlu_full_de_elementary_mathematics": {
+      "original": 378,
+      "effective": 378
+    },
+    "global_mmlu_full_de_astronomy": {
+      "original": 152,
+      "effective": 152
+    },
+    "global_mmlu_full_de_high_school_physics": {
+      "original": 151,
+      "effective": 151
+    },
+    "global_mmlu_full_de_machine_learning": {
+      "original": 112,
+      "effective": 112
+    },
+    "global_mmlu_full_de_college_chemistry": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_de_high_school_chemistry": {
+      "original": 203,
+      "effective": 203
+    },
+    "global_mmlu_full_de_college_computer_science": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_de_high_school_computer_science": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_de_high_school_mathematics": {
+      "original": 270,
+      "effective": 270
+    },
+    "global_mmlu_full_de_abstract_algebra": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_de_high_school_biology": {
+      "original": 310,
+      "effective": 310
+    },
+    "global_mmlu_full_de_electrical_engineering": {
+      "original": 145,
+      "effective": 145
+    },
+    "global_mmlu_full_de_college_physics": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_full_de_anatomy": {
+      "original": 135,
+      "effective": 135
+    },
+    "global_mmlu_full_de_high_school_statistics": {
+      "original": 216,
+      "effective": 216
+    },
+    "global_mmlu_full_de_nutrition": {
+      "original": 306,
+      "effective": 306
+    },
+    "global_mmlu_full_de_professional_medicine": {
+      "original": 272,
+      "effective": 272
+    },
+    "global_mmlu_full_de_college_medicine": {
+      "original": 173,
+      "effective": 173
+    },
+    "global_mmlu_full_de_professional_accounting": {
+      "original": 282,
+      "effective": 282
+    },
+    "global_mmlu_full_de_marketing": {
+      "original": 234,
+      "effective": 234
+    },
+    "global_mmlu_full_de_miscellaneous": {
+      "original": 783,
+      "effective": 783
+    },
+    "global_mmlu_full_de_business_ethics": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_de_virology": {
+      "original": 166,
+      "effective": 166
+    },
+    "global_mmlu_full_de_medical_genetics": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_de_human_aging": {
+      "original": 223,
+      "effective": 223
+    },
+    "global_mmlu_full_de_global_facts": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_de_clinical_knowledge": {
+      "original": 265,
+      "effective": 265
+    },
+    "global_mmlu_full_de_management": {
+      "original": 103,
+      "effective": 103
+    },
+    "global_mmlu_full_de_high_school_psychology": {
+      "original": 545,
+      "effective": 545
+    },
+    "global_mmlu_full_de_professional_psychology": {
+      "original": 612,
+      "effective": 612
+    },
+    "global_mmlu_full_de_high_school_government_and_politics": {
+      "original": 193,
+      "effective": 193
+    },
+    "global_mmlu_full_de_high_school_macroeconomics": {
+      "original": 390,
+      "effective": 390
+    },
+    "global_mmlu_full_de_high_school_microeconomics": {
+      "original": 238,
+      "effective": 238
+    },
+    "global_mmlu_full_de_econometrics": {
+      "original": 114,
+      "effective": 114
+    },
+    "global_mmlu_full_de_high_school_geography": {
+      "original": 198,
+      "effective": 198
+    },
+    "global_mmlu_full_de_security_studies": {
+      "original": 245,
+      "effective": 245
+    },
+    "global_mmlu_full_de_us_foreign_policy": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_de_public_relations": {
+      "original": 110,
+      "effective": 110
+    },
+    "global_mmlu_full_de_human_sexuality": {
+      "original": 131,
+      "effective": 131
+    },
+    "global_mmlu_full_de_sociology": {
+      "original": 201,
+      "effective": 201
+    },
+    "global_mmlu_full_de_professional_law": {
+      "original": 1534,
+      "effective": 1534
+    },
+    "global_mmlu_full_de_international_law": {
+      "original": 121,
+      "effective": 121
+    },
+    "global_mmlu_full_de_prehistory": {
+      "original": 324,
+      "effective": 324
+    },
+    "global_mmlu_full_de_world_religions": {
+      "original": 171,
+      "effective": 171
+    },
+    "global_mmlu_full_de_high_school_world_history": {
+      "original": 237,
+      "effective": 237
+    },
+    "global_mmlu_full_de_high_school_us_history": {
+      "original": 204,
+      "effective": 204
+    },
+    "global_mmlu_full_de_jurisprudence": {
+      "original": 108,
+      "effective": 108
+    },
+    "global_mmlu_full_de_formal_logic": {
+      "original": 126,
+      "effective": 126
+    },
+    "global_mmlu_full_de_logical_fallacies": {
+      "original": 163,
+      "effective": 163
+    },
+    "global_mmlu_full_de_high_school_european_history": {
+      "original": 165,
+      "effective": 165
+    },
+    "global_mmlu_full_de_philosophy": {
+      "original": 311,
+      "effective": 311
+    },
+    "global_mmlu_full_de_moral_scenarios": {
+      "original": 895,
+      "effective": 895
+    },
+    "global_mmlu_full_de_moral_disputes": {
+      "original": 346,
+      "effective": 346
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=GermanT5/t5-efficient-gc4-german-base-nl36,trust_remote_code=True",
+    "model_num_parameters": 619357440,
+    "model_dtype": "torch.float32",
+    "model_revision": "main",
+    "model_sha": "471c7616ac14cb86f0c177716315a92c26b57504",
+    "batch_size": "auto",
+    "batch_sizes": [
+      64
+    ],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 42,
+    "numpy_seed": 42,
+    "torch_seed": 42,
+    "fewshot_seed": 42
+  },
+  "git_hash": "a4103c7",
+  "date": 1758647708.6131508,
+  "pretty_env_info": "PyTorch version: 2.7.1+cu126\nIs debug build: False\nCUDA used to build PyTorch: 12.6\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 22.04.2 LTS (x86_64)\nGCC version: (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0\nClang version: Could not collect\nCMake version: version 3.24.1\nLibc version: glibc-2.35\n\nPython version: 3.10.6 (main, Mar 10 2023, 10:55:28) [GCC 11.3.0] (64-bit runtime)\nPython platform: Linux-6.8.0-1036-nvidia-x86_64-with-glibc2.35\nIs CUDA available: True\nCUDA runtime version: 12.1.105\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: GPU 0: NVIDIA H200\nNvidia driver version: 580.82.07\ncuDNN version: Probably one of the following:\n/usr/lib/x86_64-linux-gnu/libcudnn.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_adv_infer.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_adv_train.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_cnn_infer.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_cnn_train.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_ops_infer.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_ops_train.so.8.9.1\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        52 bits physical, 57 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               224\nOn-line CPU(s) list:                  0-223\nVendor ID:                            GenuineIntel\nModel name:                           Intel(R) Xeon(R) Platinum 8480C\nCPU family:                           6\nModel:                                143\nThread(s) per core:                   2\nCore(s) per socket:                   56\nSocket(s):                            2\nStepping:                             8\nCPU max MHz:                          3800.0000\nCPU min MHz:                          800.0000\nBogoMIPS:                             4000.00\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cat_l2 cdp_l3 intel_ppin cdp_l2 ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect user_shstk avx_vnni avx512_bf16 wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req vnmi avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri movdir64b enqcmd fsrm md_clear serialize tsxldtrk pconfig arch_lbr ibt amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities\nVirtualization:                       VT-x\nL1d cache:                            5.3 MiB (112 instances)\nL1i cache:                            3.5 MiB (112 instances)\nL2 cache:                             224 MiB (112 instances)\nL3 cache:                             210 MiB (2 instances)\nNUMA node(s):                         2\nNUMA node0 CPU(s):                    0-55,112-167\nNUMA node1 CPU(s):                    56-111,168-223\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Not affected\nVulnerability Spec rstack overflow:   Not affected\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\n\nVersions of relevant libraries:\n[pip3] numpy==1.26.4\n[pip3] nvidia-cublas-cu12==12.6.4.1\n[pip3] nvidia-cuda-cupti-cu12==12.6.80\n[pip3] nvidia-cuda-nvrtc-cu12==12.6.77\n[pip3] nvidia-cuda-runtime-cu12==12.6.77\n[pip3] nvidia-cudnn-cu12==9.5.1.17\n[pip3] nvidia-cufft-cu12==11.3.0.4\n[pip3] nvidia-curand-cu12==10.3.7.77\n[pip3] nvidia-cusolver-cu12==11.7.1.2\n[pip3] nvidia-cusparse-cu12==12.5.4.2\n[pip3] nvidia-cusparselt-cu12==0.6.3\n[pip3] nvidia-nccl-cu12==2.26.2\n[pip3] nvidia-nvjitlink-cu12==12.6.85\n[pip3] nvidia-nvtx-cu12==12.6.77\n[pip3] pytorch-lightning==2.5.2\n[pip3] torch==2.7.1\n[pip3] torchmetrics==1.8.0\n[pip3] triton==3.3.1\n[conda] Could not collect",
+  "transformers_version": "4.54.1",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<pad>",
+    "0"
+  ],
+  "tokenizer_eos_token": [
+    "</s>",
+    "1"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 1,
+  "max_length": 512,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "GermanT5/t5-efficient-gc4-german-base-nl36",
+  "model_name_sanitized": "GermanT5__t5-efficient-gc4-german-base-nl36",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 633854.237768892,
+  "end_time": 634480.706835312,
+  "total_evaluation_time_seconds": "626.4690664199879"
+}

@@ -1,0 +1,6 @@
+metric,bloom_560m_acc,scifive_base_pubmed_acc,diff_scifive_minus_bloom,bloom_560m_acc_percent,scifive_base_pubmed_acc_percent,diff_percent_points
+global_mmlu_en,0.22916963,0.22938328,0.00021364,22.91696,22.93833,0.02136
+global_mmlu_en_stem,0.21249604,0.21249604,0.00000000,21.24960,21.24960,0.00000
+global_mmlu_en_other,0.23945929,0.23978114,0.00032185,23.94593,23.97811,0.03219
+global_mmlu_en_social_sciences,0.21709457,0.21709457,0.00000000,21.70946,21.70946,0.00000
+global_mmlu_en_humanities,0.24144527,0.24187035,0.00042508,24.14453,24.18704,0.04251

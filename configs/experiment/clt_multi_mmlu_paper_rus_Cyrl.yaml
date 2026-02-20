@@ -1,0 +1,38 @@
+# @package _global_
+
+experiment_name: "clt_multi_mmlu_paper_rus_Cyrl"
+description: "Global-MMLU paper-track A/B for rus_Cyrl (old vs paper tokenizer-trained WECHSEL)."
+
+models:
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-rus_Cyrl"
+    name: "hf-monolingual-rus_Cyrl"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/hf-monolingual-continued-rus_Cyrl"
+    name: "hf-monolingual-continued-rus_Cyrl"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-init-rus_Cyrl"
+    name: "wechsel-init-rus_Cyrl"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-continued-rus_Cyrl"
+    name: "wechsel-continued-rus_Cyrl"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-init-paper-spm32k-rus_Cyrl"
+    name: "wechsel-init-paper-spm32k-rus_Cyrl"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/rus_Cyrl/wechsel-continued-paper-spm32k-rus_Cyrl"
+    name: "wechsel-continued-paper-spm32k-rus_Cyrl"
+
+benchmarks:
+  - name: "global_mmlu_ru"
+    tasks: ["global_mmlu_full_ru"]
+    shots: [0]
+    seed: 42
+    device: "cuda"
+    batch_size: "auto"
+
+logger:
+  wandb:
+    project: "BA-CrossLingual-Multilingual"
+    group: "clt-multilingual-mmlu-paper-spm32k"
+    name: "clt_multi_mmlu_paper_rus_Cyrl"
+    tags: ["clt-multilingual", "paper-spm32k", "rus_Cyrl", "mmlu", "global-mmlu-ru", "shots-0"]

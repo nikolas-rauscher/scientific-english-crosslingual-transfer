@@ -1,0 +1,38 @@
+# @package _global_
+
+experiment_name: "clt_multi_mmlu_paper_por_Latn"
+description: "Global-MMLU paper-track A/B for por_Latn (old vs paper tokenizer-trained WECHSEL)."
+
+models:
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-por_Latn"
+    name: "hf-monolingual-por_Latn"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/hf-monolingual-continued-por_Latn"
+    name: "hf-monolingual-continued-por_Latn"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn"
+    name: "wechsel-init-por_Latn"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-continued-por_Latn"
+    name: "wechsel-continued-por_Latn"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-paper-spm32k-por_Latn"
+    name: "wechsel-init-paper-spm32k-por_Latn"
+
+  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-continued-paper-spm32k-por_Latn"
+    name: "wechsel-continued-paper-spm32k-por_Latn"
+
+benchmarks:
+  - name: "global_mmlu_pt"
+    tasks: ["global_mmlu_full_pt"]
+    shots: [0]
+    seed: 42
+    device: "cuda"
+    batch_size: "auto"
+
+logger:
+  wandb:
+    project: "BA-CrossLingual-Multilingual"
+    group: "clt-multilingual-mmlu-paper-spm32k"
+    name: "clt_multi_mmlu_paper_por_Latn"
+    tags: ["clt-multilingual", "paper-spm32k", "por_Latn", "mmlu", "global-mmlu-pt", "shots-0"]

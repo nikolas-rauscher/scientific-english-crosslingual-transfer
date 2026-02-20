@@ -1,0 +1,31 @@
+# @package _global_
+defaults:
+  - override /hydra/launcher: basic
+
+# FastText Statistics Aggregation Configuration
+fasttext_stats:
+  # Processing limits
+  limit_documents: -1  # -1 = unlimited, positive = limit for testing
+  tasks: 1           # Parallel tasks for processing
+  workers: 1         # Workers per task
+  
+  # FastText configuration
+  fasttext_threshold: 0.75  # Expected threshold used during cleaning
+  max_sample_docs: 50       # Maximum sample documents to track
+  
+  # Input/Output paths
+  paths:
+    src_dir: "data/statistics_data_gold/enriched_documents_statistics_v2"  # Original documents with FastText scores
+    src_pattern: "*.parquet"              # Pattern to match parquet files
+    dst: "data/fasttext_stats_original/"           # Output directory (if save_output=true)
+  
+  # Output configuration
+  save_output: true  # Set to true to save documents with FastText metadata
+
+# Hydra configuration
+hydra:
+  run:
+    dir: "outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+  sweep:
+    dir: "multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+    subdir: "${hydra.job.num}"

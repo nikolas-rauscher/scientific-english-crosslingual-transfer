@@ -1,0 +1,33 @@
+# Requirements für spaCy-basierte Stats-Module
+# Diese Umgebung verwendet NumPy 2.x für DataTrove-Kompatibilität mit spaCy 3.8+
+
+# --------- core dependencies --------- #
+numpy>=2.0  # NumPy 2.x für DataTrove + spaCy 3.8+ Kompatibilität
+pandas>=1.5.3
+python-dotenv  # Environment variable loading
+
+# --------- spacy für Stats --------- #
+spacy>=3.8.0  # spaCy 3.8+ unterstützt memory_zone() und NumPy 2.x
+
+# --------- hydra (minimale Installation) --------- #
+hydra-core==1.3.2
+omegaconf>=2.1.0
+
+# --------- minimal datatrove dependencies --------- #
+fsspec>=2023.12.2
+huggingface-hub>=0.17.0
+loguru>=0.7.0
+tqdm
+pyarrow
+
+# --------- processing dependencies für Stats --------- #
+nltk
+fasttext-numpy2-wheel  # NumPy 2.x kompatible FastText-Version
+tokenizers
+tldextract
+
+# --------- HTTP dependencies für Modell-Download --------- #
+requests
+aiohttp
+fasteners  # File locking für sichere Downloads
+ 

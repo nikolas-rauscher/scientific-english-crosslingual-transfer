@@ -1,0 +1,45 @@
+raw_data_root: /ds-slt/sci-LLM/scilons/unpaywall_texts_pq/unpaywall_texts_pq_3
+
+split_policy:
+  strategy: doc_hash
+  train_ratio: 0.949615
+  val_ratio: 0.000385
+  test_ratio: 0.05
+  seed: 42
+
+languages:
+  - dataset_code: deu_Latn
+    label: german
+    fasttext_code: de
+    wechsel_dictionary: german
+    hf_monolingual_model: GermanT5/t5-efficient-gc4-german-base-nl36
+
+  - dataset_code: jpn_Jpan
+    label: japanese
+    fasttext_code: ja
+    wechsel_dictionary: japanese
+    hf_monolingual_model: megagonlabs/t5-base-japanese-web
+
+  - dataset_code: spa_Latn
+    label: spanish
+    fasttext_code: es
+    wechsel_dictionary: spanish
+    hf_monolingual_model: vgaraujov/t5-base-spanish
+
+  - dataset_code: rus_Cyrl
+    label: russian
+    fasttext_code: ru
+    wechsel_dictionary: russian
+    hf_monolingual_model: ai-forever/ruT5-base
+
+  - dataset_code: pol_Latn
+    label: polish
+    fasttext_code: pl
+    wechsel_dictionary: polish
+    hf_monolingual_model: allegro/plt5-base
+
+  - dataset_code: por_Latn
+    label: portuguese
+    fasttext_code: pt
+    wechsel_dictionary: portuguese
+    hf_monolingual_model: unicamp-dl/ptt5-base-portuguese-vocab

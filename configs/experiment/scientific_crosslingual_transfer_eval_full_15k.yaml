@@ -1,0 +1,51 @@
+# @package _global_
+
+experiment_name: "scientific_crosslingual_transfer_eval_full_15k"
+description: "MMLU 0-shot Vergleich: HF-GermanT5, Wechsel-Init, German native 15k, Wechsel-Weitertraining 15k."
+
+models:
+  - source_path: "GermanT5/t5-efficient-gc4-german-base-nl36"
+    name: "hf-germanT5-base"
+
+  - source_path: "cross_lingual_transfer/logs/native_baseline/train/runs/2025-09-18_23-54-00/checkpoints/steps/step-step=015000.ckpt"
+    name: "hf-germanT5-continued-pretraind-on-german-15k"
+
+  - source_path: "cross_lingual_transfer/models/german_T5_Optimized_50Olap_clean_restart_487k"
+    name: "wechsel-transfer-en-487k"
+
+
+  - source_path: "cross_lingual_transfer/logs/train/runs/2025-09-18_21-53-03/checkpoints/steps/step-step=015000.ckpt"
+    name: "wechsel-transfer-en-487k-continued-pretraind-on-german-15k"
+
+  # English GOLD model (pre-transfer baseline reference)
+  - source_path: "rausch/en-t5-sci-continued-pretraining-487k"
+    name: "gold-continued-pretraind-on-english-487k"
+
+  # t5-base (pre-transfer baseline reference)
+  - source_path: "t5-base"
+    name: "t5-base"
+
+benchmarks:
+  # Global MMLU English (57 subtasks with category breakdown)
+  - name: "global_mmlu_en"
+    tasks: ["global_mmlu_full_en"]
+    shots: [0]
+    seed: 42
+    device: "cuda"
+    batch_size: "auto"
+
+  # Global MMLU German (61 subtasks with category breakdown)
+  - name: "global_mmlu_de"
+    tasks: ["global_mmlu_full_de"]
+    shots: [0]
+    seed: 42
+    device: "cuda"
+    batch_size: "auto"
+
+logger:
+  wandb:
+    project: "BA-T5-CrossLingual"
+    entity: "nikolas-rauscher-dfki"
+    group: "crosslingual_transfer_eval_full_15k-final"
+    name: "scientific_crosslingual_transfer_eval_full_15k-final"
+    tags: ["global-mmlu", "crosslingual", "wechsel", "transfer", "15k", "loglikelihood"]

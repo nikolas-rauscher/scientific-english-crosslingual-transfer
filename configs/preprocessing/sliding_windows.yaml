@@ -1,0 +1,86 @@
+# @package _global_
+
+
+defaults:
+  - override /hydra/job_logging: colorlog
+  - override /hydra/hydra_logging: colorlog
+
+sliding_windows:
+  # input/output paths
+  paths:
+    input_folder: "data/cleaned_pretraining"
+    input_pattern: "*.parquet"
+    output_folder: "data/pretraining_windowed_3"
+    logging_dir: "logs/sliding_windows_3"
+
+  # reader config
+  reader:
+    text_key: "text" 
+    id_key: "id"
+    default_metadata: {}
+
+  # tokenizer config
+  tokenizer:
+    name_or_path: "t5-base"
+
+  window_config:
+    target_tokens: 568        
+    overlap_ratio: 0.0        # 0% overlap (stride = 512)
+    output_format: "text"     # "text" or "tokens"
+    # Optionally rebalance starts so the last window isn't too short
+    dynamic_last_window:
+      enable: false
+      min_last_tokens: 384
+
+  # text normalization during window creation
+  normalization:
+    enable: true              # collapse whitespace, normalize newlines, trim
+
+  # simple per-window quality filters (disabled by default)
+  filters:
+    enable: true
+    # token/length gates
+    min_actual_tokens: 530    # keep windows near full 512-input training length after corruption
+    min_char_length: 800      # fallback if tokens missing
+    # ratio thresholds (computed on normalized text)
+    max_punctuation_ratio: 0.20
+    max_non_alpha_digit_ratio: 0.35
+    max_uppercase_ratio: 0.15
+
+  # optional: compute stats on windows in the same pipeline
+  stats:
+    enable: true
+    save_enriched_docs: true
+    # where to store aggregated stats; defaults to <output_folder>/stats if not set
+    # output_folder: "${sliding_windows.paths.output_folder}/stats"
+    modules:
+      doc_stats:
+        _target_: datatrove.pipeline.stats.DocStats
+        output_folder: "doc_stats"
+        groups_to_compute: ["summary", "histogram"]
+        histogram_round_digits: 3
+
+
+  # execution config
+  execution:
+    tasks: 75
+    workers: 75
+
+  # processing limits
+  limit_documents: -1          
+
+  # weights & biases
+  log_to_wandb: true
+  wandb:
+    project: "BA-DataTrove"
+    group: "sliding-window-preprocessing"
+    tags: ["sliding-windows", "preprocessing", "t5-precise-windows", "production", "all-data"]
+
+hydra:
+  job:
+    name: sliding_window_preprocessing
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    subdir: ${hydra.job.num} 

@@ -1,0 +1,30 @@
+# @package _global_
+
+experiment_name: "bloom_original_global_mmlu_pt"
+description: "Global MMLU PT 0-shot: BLOOM original model (multi-GPU)."
+
+models:
+  - source_path: "bigscience/bloom"
+    name: "bloom-176b"
+    model_args:
+      dtype: "bfloat16"
+      parallelize: true
+      device_map: "auto"
+      max_memory_per_gpu: "140GB"
+      low_cpu_mem_usage: true
+
+benchmarks:
+  - name: "global_mmlu_pt"
+    tasks: ["global_mmlu_full_pt"]
+    shots: [0]
+    seed: 42
+    device: "cuda"
+    batch_size: "1"
+
+logger:
+  wandb:
+    project: "BA-CrossLingual-Multilingual"
+    entity: "nikolas-rauscher-dfki"
+    group: "bloom176b_global_mmlu"
+    name: "bloom176b_global_mmlu_pt"
+    tags: ["global-mmlu", "pt", "bloom", "multi-gpu", "bf16"]
