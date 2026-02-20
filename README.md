@@ -4,7 +4,7 @@ This repository is codebase for: Transferring Scientific English Pre-Trained Lan
 
 - scientific English T5 continued pretraining (EN-T5-Sci)
 - multilingual WECHSEL transfer with paper tokenizers (`spm32k + 100 extra_ids`)
-- Global-MMLU evaluation and paper aggregation
+- Global-MMLU evaluation 
 
 ## Project
 
@@ -44,7 +44,7 @@ bash cross_lingual_transfer_multilingual/jobs/paper/run_paper_pipeline_all.sh
 
 ## Slurm Job Scripts
 
-For cluster execution, the paper branch now keeps these wrappers:
+For cluster execution
 
 - `jobs/paper/run_en_cleaning.sbatch`
 - `jobs/paper/run_en_sliding_windows.sbatch`
@@ -55,8 +55,7 @@ For cluster execution, the paper branch now keeps these wrappers:
 - `jobs/paper/run_submit_dataprep_pipeline.sh` (submits cleaning -> analysis/windows jobs with dependencies)
 
 ## Paper Configs
-
-Retained paper configs in `configs/experiment/`:
+ configs in `configs/experiment/`:
 
 - `t5_continued_pretraining_lr_001_OPTIMIZED_clean_restart.yaml`
 - `scientific_crosslingual_transfer_eval_full_15k.yaml`
