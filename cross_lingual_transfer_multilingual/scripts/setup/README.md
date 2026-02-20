@@ -7,7 +7,7 @@ Scripts for preparing reproducible model artifact layout.
 1. Build layout + lineage manifest:
 
 ```bash
-/netscratch/nrauscher/projects/BA-hydra/.venv_pretraining/bin/python \
+/netscratch/anonymous_user/projects/BA-hydra/.venv_pretraining/bin/python \
   cross_lingual_transfer_multilingual/scripts/setup/build_model_layout_and_manifest.py
 ```
 
@@ -16,21 +16,21 @@ Scripts for preparing reproducible model artifact layout.
 - From HF:
 
 ```bash
-/netscratch/nrauscher/projects/BA-hydra/.venv_pretraining/bin/python \
+/netscratch/anonymous_user/projects/BA-hydra/.venv_pretraining/bin/python \
   cross_lingual_transfer_multilingual/scripts/setup/download_hf_raw_models.py --languages all
 ```
 
 - Or from existing local converted checkpoints:
 
 ```bash
-/netscratch/nrauscher/projects/BA-hydra/.venv_pretraining/bin/python \
+/netscratch/anonymous_user/projects/BA-hydra/.venv_pretraining/bin/python \
   cross_lingual_transfer_multilingual/scripts/setup/migrate_manifest_sources_to_hf_raw.py --mode symlink
 ```
 
 3. Canonicalize (`vocab_size == len(tokenizer)`):
 
 ```bash
-/netscratch/nrauscher/projects/BA-hydra/.venv_pretraining/bin/python \
+/netscratch/anonymous_user/projects/BA-hydra/.venv_pretraining/bin/python \
   cross_lingual_transfer_multilingual/scripts/setup/canonicalize_models_from_manifest.py
 ```
 

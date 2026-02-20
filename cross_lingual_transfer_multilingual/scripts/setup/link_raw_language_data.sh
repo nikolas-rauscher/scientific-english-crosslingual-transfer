@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_ROOT="/netscratch/nrauscher/projects/BA-hydra"
+PROJECT_ROOT="/netscratch/anonymous_user/projects/BA-hydra"
 SUBPROJECT_ROOT="$PROJECT_ROOT/cross_lingual_transfer_multilingual"
 DEFAULT_RAW_ROOT="/ds-slt/sci-LLM/scilons/unpaywall_texts_pq/unpaywall_texts_pq_3"
 RAW_ROOT="${1:-$DEFAULT_RAW_ROOT}"

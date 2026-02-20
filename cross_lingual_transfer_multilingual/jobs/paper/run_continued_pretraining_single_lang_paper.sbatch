@@ -7,18 +7,18 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=200G
 #SBATCH --time=24:00:00
-#SBATCH --output=/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/logs/slurm_%x_%j.out
-#SBATCH --error=/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/logs/slurm_%x_%j.err
+#SBATCH --output=/netscratch/anonymous_user/projects/BA-hydra/cross_lingual_transfer_multilingual/logs/slurm_%x_%j.out
+#SBATCH --error=/netscratch/anonymous_user/projects/BA-hydra/cross_lingual_transfer_multilingual/logs/slurm_%x_%j.err
 
 set -euo pipefail
 
-PROJECT_ROOT="/netscratch/nrauscher/projects/BA-hydra"
+PROJECT_ROOT="/netscratch/anonymous_user/projects/BA-hydra"
 LANG_CODE="${1:?Usage: sbatch run_continued_pretraining_single_lang_paper.sbatch <LANG_CODE>}"
 
 cd "$PROJECT_ROOT"
 
 srun -K \
-  --container-image=/netscratch/nrauscher/containers/hydra_pytorch_25.05.25-final.sqsh \
+  --container-image=/netscratch/anonymous_user/containers/hydra_pytorch_25.05.25-final.sqsh \
   --container-mounts=/netscratch:/netscratch,/fscratch:/fscratch \
   --container-workdir="$PROJECT_ROOT" \
   /bin/bash -lc "

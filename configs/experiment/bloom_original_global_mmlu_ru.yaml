@@ -24,7 +24,7 @@ benchmarks:
 logger:
   wandb:
     project: "BA-CrossLingual-Multilingual"
-    entity: "nikolas-rauscher-dfki"
+    entity: "anonymous-user-dfki"
     group: "bloom176b_global_mmlu"
     name: "bloom176b_global_mmlu_ru"
     tags: ["global-mmlu", "ru", "bloom", "multi-gpu", "bf16"]

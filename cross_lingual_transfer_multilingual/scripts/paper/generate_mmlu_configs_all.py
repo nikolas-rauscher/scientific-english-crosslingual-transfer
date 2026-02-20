@@ -6,7 +6,7 @@ from __future__ import annotations
 from pathlib import Path
 
 
-PROJECT_ROOT = Path("/netscratch/nrauscher/projects/BA-hydra")
+PROJECT_ROOT = Path("/netscratch/anonymous_user/projects/BA-hydra")
 CONFIG_ROOT = PROJECT_ROOT / "configs" / "experiment"
 PERMANENT_ROOT = (
     PROJECT_ROOT / "evaluation" / "converted_checkpoints" / "clt_multilingual_paper_spm32k_permanent"

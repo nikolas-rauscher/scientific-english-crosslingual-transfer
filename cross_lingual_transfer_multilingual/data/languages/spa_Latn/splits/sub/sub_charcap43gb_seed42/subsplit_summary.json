@@ -1,6 +1,6 @@
 {
-  "source_splits_dir": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/spa_Latn/splits_doc",
-  "target_splits_dir": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/spa_Latn/splits/sub/sub_charcap43gb_seed42",
+  "source_splits_dir": "/netscratch/anonymous_user/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/spa_Latn/splits_doc",
+  "target_splits_dir": "/netscratch/anonymous_user/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/spa_Latn/splits/sub/sub_charcap43gb_seed42",
   "budget_mode": "fixed_split_chars",
   "budget_total_chars": 5000000000,
   "target_total_gb": null,
@@ -40,19 +40,19 @@
   },
   "splits": {
     "train": {
-      "target_file": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/spa_Latn/splits/sub/sub_charcap43gb_seed42/train/docs.parquet",
+      "target_file": "/netscratch/anonymous_user/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/spa_Latn/splits/sub/sub_charcap43gb_seed42/train/docs.parquet",
       "requested_chars": 4300000000,
       "written_rows": 93184,
       "written_chars": 4300000002
     },
     "val": {
-      "target_file": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/spa_Latn/splits/sub/sub_charcap43gb_seed42/val/docs.parquet",
+      "target_file": "/netscratch/anonymous_user/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/spa_Latn/splits/sub/sub_charcap43gb_seed42/val/docs.parquet",
       "requested_chars": 200000000,
       "written_rows": 4293,
       "written_chars": 200000000
     },
     "test": {
-      "target_file": "/netscratch/nrauscher/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/spa_Latn/splits/sub/sub_charcap43gb_seed42/test/docs.parquet",
+      "target_file": "/netscratch/anonymous_user/projects/BA-hydra/cross_lingual_transfer_multilingual/data/languages/spa_Latn/splits/sub/sub_charcap43gb_seed42/test/docs.parquet",
       "requested_chars": 500000000,
       "written_rows": 10993,
       "written_chars": 500000000

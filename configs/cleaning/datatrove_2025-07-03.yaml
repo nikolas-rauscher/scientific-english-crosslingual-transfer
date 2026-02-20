@@ -14,10 +14,10 @@ logger:
 
 paths:
   # (Basisordner)
-  src_dir: /netscratch/nrauscher/projects/BA-hydra/data/statistics_data_gold/enriched_documents_statistics_v2
+  src_dir: /netscratch/anonymous_user/projects/BA-hydra/data/statistics_data_gold/enriched_documents_statistics_v2
   src_pattern: "*.parquet"
   # Ziel-Ordner
-  dst: /netscratch/nrauscher/projects/BA-hydra/data/cleaned_pretraining_2025-07-03/
+  dst: /netscratch/anonymous_user/projects/BA-hydra/data/cleaned_pretraining_2025-07-03/
 
 cleaning:
   # Parameter für die Begrenzung der Dokumente für Testläufe (-1 = keine Begrenzung)

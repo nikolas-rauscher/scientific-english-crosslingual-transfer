@@ -45,7 +45,7 @@ benchmarks:
 logger:
   wandb:
     project: "BA-T5-CrossLingual"
-    entity: "nikolas-rauscher-dfki"
+    entity: "anonymous-user-dfki"
     group: "crosslingual_transfer_eval_full_15k-final"
     name: "scientific_crosslingual_transfer_eval_full_15k-final"
     tags: ["global-mmlu", "crosslingual", "wechsel", "transfer", "15k", "loglikelihood"]

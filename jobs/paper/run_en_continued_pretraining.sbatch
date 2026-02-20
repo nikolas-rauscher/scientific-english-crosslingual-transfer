@@ -18,7 +18,7 @@ cd "$PROJECT_ROOT"
 
 mkdir -p logs
 
-CONTAINER_IMAGE="${CONTAINER_IMAGE:-/netscratch/nrauscher/containers/hydra_pytorch_25.05.25-final.sqsh}"
+CONTAINER_IMAGE="${CONTAINER_IMAGE:-/netscratch/anonymous_user/containers/hydra_pytorch_25.05.25-final.sqsh}"
 MOUNTS="/netscratch:/netscratch,/fscratch:/fscratch"
 EXTRA_ARGS="$*"
 

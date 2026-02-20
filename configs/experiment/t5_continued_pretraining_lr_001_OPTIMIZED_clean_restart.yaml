@@ -28,7 +28,7 @@ train: true
 
 data:
   # Point to validated sliding windows dataset (50% overlap, legacy)
-  data_dir: /fscratch/nrauscher/projects/BA-hydra/data/validated_sliding_windows/validated
+  data_dir: /fscratch/anonymous_user/projects/BA-hydra/data/validated_sliding_windows/validated
   batch_size: 96
   limit_files: -1
   limit_documents: -1

@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any
 
 
-PROJECT_ROOT = Path("/netscratch/nrauscher/projects/BA-hydra")
+PROJECT_ROOT = Path("/netscratch/anonymous_user/projects/BA-hydra")
 SUMMARY_GLOB = (
     "logs/eval_pipeline/runs/**/evaluation/results/universal/"
     "clt_multi_mmlu_paper_*_summary_*.json"

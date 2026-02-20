@@ -14,10 +14,10 @@ logger:
 
 paths:
   # (Basisordner)
-  src_dir: /fscratch/nrauscher/enriched_documents_statistics_v2_fscratch
+  src_dir: /fscratch/anonymous_user/enriched_documents_statistics_v2_fscratch
   src_pattern: "*.parquet"
   # Ziel-Ordner
-  dst: /netscratch/nrauscher/projects/BA-hydra/data/cleaned_pretraining_testing_new_regex_method/
+  dst: /netscratch/anonymous_user/projects/BA-hydra/data/cleaned_pretraining_testing_new_regex_method/
 
 cleaning:
   # Parameter für die Begrenzung der Dokumente für Testläufe (-1 = keine Begrenzung)

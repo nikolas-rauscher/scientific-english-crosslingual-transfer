@@ -11,9 +11,9 @@ logger:
 
 # Pfade für Datenzugriff und -ausgabe
 paths:
-  input_folder: /fscratch/nrauscher/projects/BA-hydra/data/cleaned-data-final-09-07-2025
+  input_folder: /fscratch/anonymous_user/projects/BA-hydra/data/cleaned-data-final-09-07-2025
   src_pattern: "*.parquet"
-  output_folder: /fscratch/nrauscher/projects/BA-hydra/data/after_cleaning/cleand_data_stats_enriched_V1/
+  output_folder: /fscratch/anonymous_user/projects/BA-hydra/data/after_cleaning/cleand_data_stats_enriched_V1/
   # logging_dir: Wird dynamisch von Script generiert (Hydra-Output + DataTrove-Subdirectory)
 
 # Reader Konfiguration

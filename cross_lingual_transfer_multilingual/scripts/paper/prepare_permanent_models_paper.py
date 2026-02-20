@@ -16,7 +16,7 @@ from transformers import AutoTokenizer, T5Config, T5ForConditionalGeneration
 import yaml
 
 
-PROJECT_ROOT = Path("/netscratch/nrauscher/projects/BA-hydra")
+PROJECT_ROOT = Path("/netscratch/anonymous_user/projects/BA-hydra")
 SUBPROJECT_ROOT = PROJECT_ROOT / "cross_lingual_transfer_multilingual"
 TARGETS_CONFIG = SUBPROJECT_ROOT / "configs" / "languages" / "targets.yaml"
 

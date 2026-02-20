@@ -12,9 +12,9 @@ logger:
 # Pfade für Datenzugriff und -ausgabe
 paths:
   # CHAINED v2: Liest enriched documents v1 (Standard-Stats) und erstellt v2 (Standard + spaCy)
-  input_folder: /fscratch/nrauscher/projects/BA-hydra/data/after_cleaning/cleand_data_stats_enriched_V1/enriched_documents_statistics_v1/
+  input_folder: /fscratch/anonymous_user/projects/BA-hydra/data/after_cleaning/cleand_data_stats_enriched_V1/enriched_documents_statistics_v1/
   src_pattern: "*.parquet"
-  output_folder: /fscratch/nrauscher/projects/BA-hydra/data/after_cleaning/cleand_data_stats_enriched_V2/
+  output_folder: /fscratch/anonymous_user/projects/BA-hydra/data/after_cleaning/cleand_data_stats_enriched_V2/
   # logging_dir: Wird dynamisch von Script generiert (Hydra-Output + DataTrove-Subdirectory)
 
 # Reader Konfiguration

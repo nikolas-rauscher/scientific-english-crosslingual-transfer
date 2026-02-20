@@ -8,7 +8,7 @@ set -euo pipefail
 # Usage:
 #   bash cross_lingual_transfer_multilingual/scripts/data_prep/run_doc_split_pipeline.sh spa_Latn
 
-PROJECT_ROOT="/netscratch/nrauscher/projects/BA-hydra"
+PROJECT_ROOT="/netscratch/anonymous_user/projects/BA-hydra"
 SUBPROJECT_ROOT="$PROJECT_ROOT/cross_lingual_transfer_multilingual"
 RAW_ROOT_DEFAULT="/ds-slt/sci-LLM/scilons/unpaywall_texts_pq/unpaywall_texts_pq_3"
 

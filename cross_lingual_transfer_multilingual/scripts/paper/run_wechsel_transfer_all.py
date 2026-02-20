@@ -28,7 +28,7 @@ from wechsel import WECHSEL, load_embeddings
 
 LOG = logging.getLogger(__name__)
 
-PROJECT_ROOT = Path("/netscratch/nrauscher/projects/BA-hydra")
+PROJECT_ROOT = Path("/netscratch/anonymous_user/projects/BA-hydra")
 SUBPROJECT_ROOT = PROJECT_ROOT / "cross_lingual_transfer_multilingual"
 TARGETS_CONFIG = SUBPROJECT_ROOT / "configs" / "languages" / "targets.yaml"
 TOKENIZER_ROOT = SUBPROJECT_ROOT / "models" / "tokenizers_paper_spm32k"

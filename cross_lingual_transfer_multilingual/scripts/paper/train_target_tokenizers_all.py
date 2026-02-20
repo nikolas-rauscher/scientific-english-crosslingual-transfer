@@ -26,7 +26,7 @@ import sentencepiece as spm
 from transformers import T5Tokenizer
 
 
-PROJECT_ROOT = Path("/netscratch/nrauscher/projects/BA-hydra")
+PROJECT_ROOT = Path("/netscratch/anonymous_user/projects/BA-hydra")
 SUBPROJECT_ROOT = PROJECT_ROOT / "cross_lingual_transfer_multilingual"
 OUTPUT_ROOT = SUBPROJECT_ROOT / "models" / "tokenizers_paper_spm32k"
 SUBSPLIT_NAME = "sub_charcap43gb_seed42"

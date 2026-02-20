@@ -1,0 +1,3347 @@
+{
+  "results": {
+    "global_mmlu_full_pt": {
+      "acc,none": 0.2528129896026207,
+      "acc_stderr,none": 0.003663852102467418,
+      "alias": "global_mmlu_full_pt"
+    },
+    "global_mmlu_full_pt_humanities": {
+      "acc,none": 0.26546227417640805,
+      "acc_stderr,none": 0.006437065323598537,
+      "alias": " - global_mmlu_full_pt_humanities"
+    },
+    "global_mmlu_full_pt_formal_logic": {
+      "alias": "  - global_mmlu_full_pt_formal_logic",
+      "acc,none": 0.1746031746031746,
+      "acc_stderr,none": 0.03395490020856112
+    },
+    "global_mmlu_full_pt_high_school_european_history": {
+      "alias": "  - global_mmlu_full_pt_high_school_european_history",
+      "acc,none": 0.2727272727272727,
+      "acc_stderr,none": 0.03477691162163659
+    },
+    "global_mmlu_full_pt_high_school_us_history": {
+      "alias": "  - global_mmlu_full_pt_high_school_us_history",
+      "acc,none": 0.2647058823529412,
+      "acc_stderr,none": 0.03096451792692339
+    },
+    "global_mmlu_full_pt_high_school_world_history": {
+      "alias": "  - global_mmlu_full_pt_high_school_world_history",
+      "acc,none": 0.2489451476793249,
+      "acc_stderr,none": 0.028146970599422644
+    },
+    "global_mmlu_full_pt_international_law": {
+      "alias": "  - global_mmlu_full_pt_international_law",
+      "acc,none": 0.33884297520661155,
+      "acc_stderr,none": 0.04320767807536669
+    },
+    "global_mmlu_full_pt_jurisprudence": {
+      "alias": "  - global_mmlu_full_pt_jurisprudence",
+      "acc,none": 0.25,
+      "acc_stderr,none": 0.04186091791394607
+    },
+    "global_mmlu_full_pt_logical_fallacies": {
+      "alias": "  - global_mmlu_full_pt_logical_fallacies",
+      "acc,none": 0.26993865030674846,
+      "acc_stderr,none": 0.034878251684978906
+    },
+    "global_mmlu_full_pt_moral_disputes": {
+      "alias": "  - global_mmlu_full_pt_moral_disputes",
+      "acc,none": 0.27167630057803466,
+      "acc_stderr,none": 0.023948512905468358
+    },
+    "global_mmlu_full_pt_moral_scenarios": {
+      "alias": "  - global_mmlu_full_pt_moral_scenarios",
+      "acc,none": 0.24692737430167597,
+      "acc_stderr,none": 0.014422292204808838
+    },
+    "global_mmlu_full_pt_philosophy": {
+      "alias": "  - global_mmlu_full_pt_philosophy",
+      "acc,none": 0.2958199356913183,
+      "acc_stderr,none": 0.025922371788818788
+    },
+    "global_mmlu_full_pt_prehistory": {
+      "alias": "  - global_mmlu_full_pt_prehistory",
+      "acc,none": 0.2777777777777778,
+      "acc_stderr,none": 0.02492200116888633
+    },
+    "global_mmlu_full_pt_professional_law": {
+      "alias": "  - global_mmlu_full_pt_professional_law",
+      "acc,none": 0.26597131681877445,
+      "acc_stderr,none": 0.011285033165551277
+    },
+    "global_mmlu_full_pt_world_religions": {
+      "alias": "  - global_mmlu_full_pt_world_religions",
+      "acc,none": 0.30409356725146197,
+      "acc_stderr,none": 0.035282112582452306
+    },
+    "global_mmlu_full_pt_other": {
+      "acc,none": 0.2413904087544255,
+      "acc_stderr,none": 0.007661883365968972,
+      "alias": " - global_mmlu_full_pt_other"
+    },
+    "global_mmlu_full_pt_business_ethics": {
+      "alias": "  - global_mmlu_full_pt_business_ethics",
+      "acc,none": 0.22,
+      "acc_stderr,none": 0.04163331998932269
+    },
+    "global_mmlu_full_pt_clinical_knowledge": {
+      "alias": "  - global_mmlu_full_pt_clinical_knowledge",
+      "acc,none": 0.23773584905660378,
+      "acc_stderr,none": 0.02619980880756193
+    },
+    "global_mmlu_full_pt_college_medicine": {
+      "alias": "  - global_mmlu_full_pt_college_medicine",
+      "acc,none": 0.2658959537572254,
+      "acc_stderr,none": 0.033687629322594316
+    },
+    "global_mmlu_full_pt_global_facts": {
+      "alias": "  - global_mmlu_full_pt_global_facts",
+      "acc,none": 0.34,
+      "acc_stderr,none": 0.04760952285695236
+    },
+    "global_mmlu_full_pt_human_aging": {
+      "alias": "  - global_mmlu_full_pt_human_aging",
+      "acc,none": 0.22869955156950672,
+      "acc_stderr,none": 0.02818824004692919
+    },
+    "global_mmlu_full_pt_management": {
+      "alias": "  - global_mmlu_full_pt_management",
+      "acc,none": 0.1650485436893204,
+      "acc_stderr,none": 0.036756688322331886
+    },
+    "global_mmlu_full_pt_marketing": {
+      "alias": "  - global_mmlu_full_pt_marketing",
+      "acc,none": 0.2564102564102564,
+      "acc_stderr,none": 0.028605953702004253
+    },
+    "global_mmlu_full_pt_medical_genetics": {
+      "alias": "  - global_mmlu_full_pt_medical_genetics",
+      "acc,none": 0.25,
+      "acc_stderr,none": 0.04351941398892446
+    },
+    "global_mmlu_full_pt_miscellaneous": {
+      "alias": "  - global_mmlu_full_pt_miscellaneous",
+      "acc,none": 0.2681992337164751,
+      "acc_stderr,none": 0.015842430835269428
+    },
+    "global_mmlu_full_pt_nutrition": {
+      "alias": "  - global_mmlu_full_pt_nutrition",
+      "acc,none": 0.24183006535947713,
+      "acc_stderr,none": 0.024518195641879334
+    },
+    "global_mmlu_full_pt_professional_accounting": {
+      "alias": "  - global_mmlu_full_pt_professional_accounting",
+      "acc,none": 0.25177304964539005,
+      "acc_stderr,none": 0.0258921511567094
+    },
+    "global_mmlu_full_pt_professional_medicine": {
+      "alias": "  - global_mmlu_full_pt_professional_medicine",
+      "acc,none": 0.15441176470588236,
+      "acc_stderr,none": 0.021950024722922026
+    },
+    "global_mmlu_full_pt_virology": {
+      "alias": "  - global_mmlu_full_pt_virology",
+      "acc,none": 0.21084337349397592,
+      "acc_stderr,none": 0.03175554786629918
+    },
+    "global_mmlu_full_pt_social_sciences": {
+      "acc,none": 0.23626909327266818,
+      "acc_stderr,none": 0.007652907264252535,
+      "alias": " - global_mmlu_full_pt_social_sciences"
+    },
+    "global_mmlu_full_pt_econometrics": {
+      "alias": "  - global_mmlu_full_pt_econometrics",
+      "acc,none": 0.2719298245614035,
+      "acc_stderr,none": 0.04185774424022056
+    },
+    "global_mmlu_full_pt_high_school_geography": {
+      "alias": "  - global_mmlu_full_pt_high_school_geography",
+      "acc,none": 0.2222222222222222,
+      "acc_stderr,none": 0.029620227874790465
+    },
+    "global_mmlu_full_pt_high_school_government_and_politics": {
+      "alias": "  - global_mmlu_full_pt_high_school_government_and_politics",
+      "acc,none": 0.20725388601036268,
+      "acc_stderr,none": 0.02925282329180363
+    },
+    "global_mmlu_full_pt_high_school_macroeconomics": {
+      "alias": "  - global_mmlu_full_pt_high_school_macroeconomics",
+      "acc,none": 0.2128205128205128,
+      "acc_stderr,none": 0.020752423722128006
+    },
+    "global_mmlu_full_pt_high_school_microeconomics": {
+      "alias": "  - global_mmlu_full_pt_high_school_microeconomics",
+      "acc,none": 0.23529411764705882,
+      "acc_stderr,none": 0.0275536144678638
+    },
+    "global_mmlu_full_pt_high_school_psychology": {
+      "alias": "  - global_mmlu_full_pt_high_school_psychology",
+      "acc,none": 0.1981651376146789,
+      "acc_stderr,none": 0.017090573804217878
+    },
+    "global_mmlu_full_pt_human_sexuality": {
+      "alias": "  - global_mmlu_full_pt_human_sexuality",
+      "acc,none": 0.24427480916030533,
+      "acc_stderr,none": 0.037683359597287434
+    },
+    "global_mmlu_full_pt_professional_psychology": {
+      "alias": "  - global_mmlu_full_pt_professional_psychology",
+      "acc,none": 0.27941176470588236,
+      "acc_stderr,none": 0.0181528710515388
+    },
+    "global_mmlu_full_pt_public_relations": {
+      "alias": "  - global_mmlu_full_pt_public_relations",
+      "acc,none": 0.23636363636363636,
+      "acc_stderr,none": 0.04069306319721377
+    },
+    "global_mmlu_full_pt_security_studies": {
+      "alias": "  - global_mmlu_full_pt_security_studies",
+      "acc,none": 0.23673469387755103,
+      "acc_stderr,none": 0.02721283588407315
+    },
+    "global_mmlu_full_pt_sociology": {
+      "alias": "  - global_mmlu_full_pt_sociology",
+      "acc,none": 0.27860696517412936,
+      "acc_stderr,none": 0.031700561834973086
+    },
+    "global_mmlu_full_pt_us_foreign_policy": {
+      "alias": "  - global_mmlu_full_pt_us_foreign_policy",
+      "acc,none": 0.22,
+      "acc_stderr,none": 0.04163331998932269
+    },
+    "global_mmlu_full_pt_stem": {
+      "acc,none": 0.2613384078655249,
+      "acc_stderr,none": 0.007822906793983387,
+      "alias": " - global_mmlu_full_pt_stem"
+    },
+    "global_mmlu_full_pt_abstract_algebra": {
+      "alias": "  - global_mmlu_full_pt_abstract_algebra",
+      "acc,none": 0.27,
+      "acc_stderr,none": 0.044619604333847394
+    },
+    "global_mmlu_full_pt_anatomy": {
+      "alias": "  - global_mmlu_full_pt_anatomy",
+      "acc,none": 0.2518518518518518,
+      "acc_stderr,none": 0.037498507091740206
+    },
+    "global_mmlu_full_pt_astronomy": {
+      "alias": "  - global_mmlu_full_pt_astronomy",
+      "acc,none": 0.24342105263157895,
+      "acc_stderr,none": 0.034923496688842384
+    },
+    "global_mmlu_full_pt_college_biology": {
+      "alias": "  - global_mmlu_full_pt_college_biology",
+      "acc,none": 0.2569444444444444,
+      "acc_stderr,none": 0.03653946969442099
+    },
+    "global_mmlu_full_pt_college_chemistry": {
+      "alias": "  - global_mmlu_full_pt_college_chemistry",
+      "acc,none": 0.17,
+      "acc_stderr,none": 0.03775251680686371
+    },
+    "global_mmlu_full_pt_college_computer_science": {
+      "alias": "  - global_mmlu_full_pt_college_computer_science",
+      "acc,none": 0.25,
+      "acc_stderr,none": 0.04351941398892446
+    },
+    "global_mmlu_full_pt_college_mathematics": {
+      "alias": "  - global_mmlu_full_pt_college_mathematics",
+      "acc,none": 0.27,
+      "acc_stderr,none": 0.044619604333847394
+    },
+    "global_mmlu_full_pt_college_physics": {
+      "alias": "  - global_mmlu_full_pt_college_physics",
+      "acc,none": 0.23529411764705882,
+      "acc_stderr,none": 0.04220773659171452
+    },
+    "global_mmlu_full_pt_computer_security": {
+      "alias": "  - global_mmlu_full_pt_computer_security",
+      "acc,none": 0.31,
+      "acc_stderr,none": 0.04648231987117316
+    },
+    "global_mmlu_full_pt_conceptual_physics": {
+      "alias": "  - global_mmlu_full_pt_conceptual_physics",
+      "acc,none": 0.22127659574468084,
+      "acc_stderr,none": 0.027136349602424052
+    },
+    "global_mmlu_full_pt_electrical_engineering": {
+      "alias": "  - global_mmlu_full_pt_electrical_engineering",
+      "acc,none": 0.296551724137931,
+      "acc_stderr,none": 0.03806142687309993
+    },
+    "global_mmlu_full_pt_elementary_mathematics": {
+      "alias": "  - global_mmlu_full_pt_elementary_mathematics",
+      "acc,none": 0.25925925925925924,
+      "acc_stderr,none": 0.02256989707491841
+    },
+    "global_mmlu_full_pt_high_school_biology": {
+      "alias": "  - global_mmlu_full_pt_high_school_biology",
+      "acc,none": 0.24193548387096775,
+      "acc_stderr,none": 0.0243625996930311
+    },
+    "global_mmlu_full_pt_high_school_chemistry": {
+      "alias": "  - global_mmlu_full_pt_high_school_chemistry",
+      "acc,none": 0.3103448275862069,
+      "acc_stderr,none": 0.03255086769970103
+    },
+    "global_mmlu_full_pt_high_school_computer_science": {
+      "alias": "  - global_mmlu_full_pt_high_school_computer_science",
+      "acc,none": 0.35,
+      "acc_stderr,none": 0.0479372485441102
+    },
+    "global_mmlu_full_pt_high_school_mathematics": {
+      "alias": "  - global_mmlu_full_pt_high_school_mathematics",
+      "acc,none": 0.27037037037037037,
+      "acc_stderr,none": 0.02708037281514566
+    },
+    "global_mmlu_full_pt_high_school_physics": {
+      "alias": "  - global_mmlu_full_pt_high_school_physics",
+      "acc,none": 0.2582781456953642,
+      "acc_stderr,none": 0.035737053147634576
+    },
+    "global_mmlu_full_pt_high_school_statistics": {
+      "alias": "  - global_mmlu_full_pt_high_school_statistics",
+      "acc,none": 0.23148148148148148,
+      "acc_stderr,none": 0.028765111718046955
+    },
+    "global_mmlu_full_pt_machine_learning": {
+      "alias": "  - global_mmlu_full_pt_machine_learning",
+      "acc,none": 0.33035714285714285,
+      "acc_stderr,none": 0.04464285714285712
+    }
+  },
+  "groups": {
+    "global_mmlu_full_pt": {
+      "acc,none": 0.2528129896026207,
+      "acc_stderr,none": 0.003663852102467418,
+      "alias": "global_mmlu_full_pt"
+    },
+    "global_mmlu_full_pt_humanities": {
+      "acc,none": 0.26546227417640805,
+      "acc_stderr,none": 0.006437065323598537,
+      "alias": " - global_mmlu_full_pt_humanities"
+    },
+    "global_mmlu_full_pt_other": {
+      "acc,none": 0.2413904087544255,
+      "acc_stderr,none": 0.007661883365968972,
+      "alias": " - global_mmlu_full_pt_other"
+    },
+    "global_mmlu_full_pt_social_sciences": {
+      "acc,none": 0.23626909327266818,
+      "acc_stderr,none": 0.007652907264252535,
+      "alias": " - global_mmlu_full_pt_social_sciences"
+    },
+    "global_mmlu_full_pt_stem": {
+      "acc,none": 0.2613384078655249,
+      "acc_stderr,none": 0.007822906793983387,
+      "alias": " - global_mmlu_full_pt_stem"
+    }
+  },
+  "group_subtasks": {
+    "global_mmlu_full_pt_humanities": [
+      "global_mmlu_full_pt_formal_logic",
+      "global_mmlu_full_pt_high_school_world_history",
+      "global_mmlu_full_pt_philosophy",
+      "global_mmlu_full_pt_moral_disputes",
+      "global_mmlu_full_pt_professional_law",
+      "global_mmlu_full_pt_international_law",
+      "global_mmlu_full_pt_high_school_us_history",
+      "global_mmlu_full_pt_logical_fallacies",
+      "global_mmlu_full_pt_prehistory",
+      "global_mmlu_full_pt_moral_scenarios",
+      "global_mmlu_full_pt_jurisprudence",
+      "global_mmlu_full_pt_world_religions",
+      "global_mmlu_full_pt_high_school_european_history"
+    ],
+    "global_mmlu_full_pt_social_sciences": [
+      "global_mmlu_full_pt_sociology",
+      "global_mmlu_full_pt_high_school_psychology",
+      "global_mmlu_full_pt_high_school_government_and_politics",
+      "global_mmlu_full_pt_high_school_geography",
+      "global_mmlu_full_pt_public_relations",
+      "global_mmlu_full_pt_security_studies",
+      "global_mmlu_full_pt_high_school_microeconomics",
+      "global_mmlu_full_pt_us_foreign_policy",
+      "global_mmlu_full_pt_human_sexuality",
+      "global_mmlu_full_pt_econometrics",
+      "global_mmlu_full_pt_high_school_macroeconomics",
+      "global_mmlu_full_pt_professional_psychology"
+    ],
+    "global_mmlu_full_pt_other": [
+      "global_mmlu_full_pt_college_medicine",
+      "global_mmlu_full_pt_human_aging",
+      "global_mmlu_full_pt_clinical_knowledge",
+      "global_mmlu_full_pt_business_ethics",
+      "global_mmlu_full_pt_management",
+      "global_mmlu_full_pt_professional_medicine",
+      "global_mmlu_full_pt_marketing",
+      "global_mmlu_full_pt_professional_accounting",
+      "global_mmlu_full_pt_nutrition",
+      "global_mmlu_full_pt_medical_genetics",
+      "global_mmlu_full_pt_virology",
+      "global_mmlu_full_pt_miscellaneous",
+      "global_mmlu_full_pt_global_facts"
+    ],
+    "global_mmlu_full_pt_stem": [
+      "global_mmlu_full_pt_anatomy",
+      "global_mmlu_full_pt_high_school_statistics",
+      "global_mmlu_full_pt_high_school_computer_science",
+      "global_mmlu_full_pt_high_school_chemistry",
+      "global_mmlu_full_pt_college_mathematics",
+      "global_mmlu_full_pt_abstract_algebra",
+      "global_mmlu_full_pt_college_computer_science",
+      "global_mmlu_full_pt_high_school_biology",
+      "global_mmlu_full_pt_college_physics",
+      "global_mmlu_full_pt_conceptual_physics",
+      "global_mmlu_full_pt_electrical_engineering",
+      "global_mmlu_full_pt_astronomy",
+      "global_mmlu_full_pt_high_school_physics",
+      "global_mmlu_full_pt_college_biology",
+      "global_mmlu_full_pt_college_chemistry",
+      "global_mmlu_full_pt_machine_learning",
+      "global_mmlu_full_pt_elementary_mathematics",
+      "global_mmlu_full_pt_high_school_mathematics",
+      "global_mmlu_full_pt_computer_security"
+    ],
+    "global_mmlu_full_pt": [
+      "global_mmlu_full_pt_stem",
+      "global_mmlu_full_pt_other",
+      "global_mmlu_full_pt_social_sciences",
+      "global_mmlu_full_pt_humanities"
+    ]
+  },
+  "configs": {
+    "global_mmlu_full_pt_abstract_algebra": {
+      "task": "global_mmlu_full_pt_abstract_algebra",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7a5f0>, subject='abstract_algebra')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_anatomy": {
+      "task": "global_mmlu_full_pt_anatomy",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e78430>, subject='anatomy')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_astronomy": {
+      "task": "global_mmlu_full_pt_astronomy",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7b2e0>, subject='astronomy')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_business_ethics": {
+      "task": "global_mmlu_full_pt_business_ethics",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0283eb0>, subject='business_ethics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_clinical_knowledge": {
+      "task": "global_mmlu_full_pt_clinical_knowledge",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e78a60>, subject='clinical_knowledge')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_college_biology": {
+      "task": "global_mmlu_full_pt_college_biology",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e79360>, subject='college_biology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_college_chemistry": {
+      "task": "global_mmlu_full_pt_college_chemistry",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7a560>, subject='college_chemistry')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_college_computer_science": {
+      "task": "global_mmlu_full_pt_college_computer_science",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7b490>, subject='college_computer_science')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_college_mathematics": {
+      "task": "global_mmlu_full_pt_college_mathematics",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e788b0>, subject='college_mathematics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_college_medicine": {
+      "task": "global_mmlu_full_pt_college_medicine",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7a320>, subject='college_medicine')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_college_physics": {
+      "task": "global_mmlu_full_pt_college_physics",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7b370>, subject='college_physics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_computer_security": {
+      "task": "global_mmlu_full_pt_computer_security",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e79900>, subject='computer_security')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_conceptual_physics": {
+      "task": "global_mmlu_full_pt_conceptual_physics",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7ba30>, subject='conceptual_physics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_econometrics": {
+      "task": "global_mmlu_full_pt_econometrics",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0281c60>, subject='econometrics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_electrical_engineering": {
+      "task": "global_mmlu_full_pt_electrical_engineering",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7b250>, subject='electrical_engineering')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_elementary_mathematics": {
+      "task": "global_mmlu_full_pt_elementary_mathematics",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7ab90>, subject='elementary_mathematics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_formal_logic": {
+      "task": "global_mmlu_full_pt_formal_logic",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812fac0>, subject='formal_logic')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_global_facts": {
+      "task": "global_mmlu_full_pt_global_facts",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0282290>, subject='global_facts')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_biology": {
+      "task": "global_mmlu_full_pt_high_school_biology",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e79870>, subject='high_school_biology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_chemistry": {
+      "task": "global_mmlu_full_pt_high_school_chemistry",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e79630>, subject='high_school_chemistry')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_computer_science": {
+      "task": "global_mmlu_full_pt_high_school_computer_science",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1e80cd000>, subject='high_school_computer_science')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_european_history": {
+      "task": "global_mmlu_full_pt_high_school_european_history",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba26de30430>, subject='high_school_european_history')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_geography": {
+      "task": "global_mmlu_full_pt_high_school_geography",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0282170>, subject='high_school_geography')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_government_and_politics": {
+      "task": "global_mmlu_full_pt_high_school_government_and_politics",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0280790>, subject='high_school_government_and_politics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_macroeconomics": {
+      "task": "global_mmlu_full_pt_high_school_macroeconomics",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0281480>, subject='high_school_macroeconomics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_mathematics": {
+      "task": "global_mmlu_full_pt_high_school_mathematics",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e79cf0>, subject='high_school_mathematics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_microeconomics": {
+      "task": "global_mmlu_full_pt_high_school_microeconomics",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812fc70>, subject='high_school_microeconomics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_physics": {
+      "task": "global_mmlu_full_pt_high_school_physics",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7add0>, subject='high_school_physics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_psychology": {
+      "task": "global_mmlu_full_pt_high_school_psychology",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0281b40>, subject='high_school_psychology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_statistics": {
+      "task": "global_mmlu_full_pt_high_school_statistics",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e792d0>, subject='high_school_statistics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_us_history": {
+      "task": "global_mmlu_full_pt_high_school_us_history",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812f490>, subject='high_school_us_history')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_high_school_world_history": {
+      "task": "global_mmlu_full_pt_high_school_world_history",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812f910>, subject='high_school_world_history')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_human_aging": {
+      "task": "global_mmlu_full_pt_human_aging",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e780d0>, subject='human_aging')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_human_sexuality": {
+      "task": "global_mmlu_full_pt_human_sexuality",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0281990>, subject='human_sexuality')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_international_law": {
+      "task": "global_mmlu_full_pt_international_law",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812f760>, subject='international_law')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_jurisprudence": {
+      "task": "global_mmlu_full_pt_jurisprudence",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba272201900>, subject='jurisprudence')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_logical_fallacies": {
+      "task": "global_mmlu_full_pt_logical_fallacies",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812d630>, subject='logical_fallacies')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_machine_learning": {
+      "task": "global_mmlu_full_pt_machine_learning",
+      "tag": "global_mmlu_full_pt_stem_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e7b010>, subject='machine_learning')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_management": {
+      "task": "global_mmlu_full_pt_management",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f02805e0>, subject='management')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_marketing": {
+      "task": "global_mmlu_full_pt_marketing",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f02811b0>, subject='marketing')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_medical_genetics": {
+      "task": "global_mmlu_full_pt_medical_genetics",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0282dd0>, subject='medical_genetics')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_miscellaneous": {
+      "task": "global_mmlu_full_pt_miscellaneous",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0283490>, subject='miscellaneous')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_moral_disputes": {
+      "task": "global_mmlu_full_pt_moral_disputes",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812f010>, subject='moral_disputes')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_moral_scenarios": {
+      "task": "global_mmlu_full_pt_moral_scenarios",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812db40>, subject='moral_scenarios')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_nutrition": {
+      "task": "global_mmlu_full_pt_nutrition",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f02832e0>, subject='nutrition')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_philosophy": {
+      "task": "global_mmlu_full_pt_philosophy",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812f520>, subject='philosophy')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_prehistory": {
+      "task": "global_mmlu_full_pt_prehistory",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812d090>, subject='prehistory')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_professional_accounting": {
+      "task": "global_mmlu_full_pt_professional_accounting",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0283250>, subject='professional_accounting')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_professional_law": {
+      "task": "global_mmlu_full_pt_professional_law",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812d480>, subject='professional_law')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_professional_medicine": {
+      "task": "global_mmlu_full_pt_professional_medicine",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f1e78dc0>, subject='professional_medicine')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_professional_psychology": {
+      "task": "global_mmlu_full_pt_professional_psychology",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0280040>, subject='professional_psychology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_public_relations": {
+      "task": "global_mmlu_full_pt_public_relations",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0281cf0>, subject='public_relations')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_security_studies": {
+      "task": "global_mmlu_full_pt_security_studies",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0281000>, subject='security_studies')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_sociology": {
+      "task": "global_mmlu_full_pt_sociology",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f0282cb0>, subject='sociology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_us_foreign_policy": {
+      "task": "global_mmlu_full_pt_us_foreign_policy",
+      "tag": "global_mmlu_full_pt_social_sciences_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812f370>, subject='us_foreign_policy')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_virology": {
+      "task": "global_mmlu_full_pt_virology",
+      "tag": "global_mmlu_full_pt_other_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba1f02830a0>, subject='virology')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    },
+    "global_mmlu_full_pt_world_religions": {
+      "task": "global_mmlu_full_pt_world_religions",
+      "tag": "global_mmlu_full_pt_humanities_tasks",
+      "dataset_path": "CohereForAI/Global-MMLU",
+      "dataset_name": "pt",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "functools.partial(<function process_docs at 0x7ba24812d3f0>, subject='world_religions')",
+      "doc_to_text": "{{question.strip()}}\nA. {{option_a}}\nB. {{option_b}}\nC. {{option_c}}\nD. {{option_d}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+        "trust_remote_code": true,
+        "local_files_only": true
+      }
+    }
+  },
+  "versions": {
+    "global_mmlu_full_pt": 0.0,
+    "global_mmlu_full_pt_abstract_algebra": 0.0,
+    "global_mmlu_full_pt_anatomy": 0.0,
+    "global_mmlu_full_pt_astronomy": 0.0,
+    "global_mmlu_full_pt_business_ethics": 0.0,
+    "global_mmlu_full_pt_clinical_knowledge": 0.0,
+    "global_mmlu_full_pt_college_biology": 0.0,
+    "global_mmlu_full_pt_college_chemistry": 0.0,
+    "global_mmlu_full_pt_college_computer_science": 0.0,
+    "global_mmlu_full_pt_college_mathematics": 0.0,
+    "global_mmlu_full_pt_college_medicine": 0.0,
+    "global_mmlu_full_pt_college_physics": 0.0,
+    "global_mmlu_full_pt_computer_security": 0.0,
+    "global_mmlu_full_pt_conceptual_physics": 0.0,
+    "global_mmlu_full_pt_econometrics": 0.0,
+    "global_mmlu_full_pt_electrical_engineering": 0.0,
+    "global_mmlu_full_pt_elementary_mathematics": 0.0,
+    "global_mmlu_full_pt_formal_logic": 0.0,
+    "global_mmlu_full_pt_global_facts": 0.0,
+    "global_mmlu_full_pt_high_school_biology": 0.0,
+    "global_mmlu_full_pt_high_school_chemistry": 0.0,
+    "global_mmlu_full_pt_high_school_computer_science": 0.0,
+    "global_mmlu_full_pt_high_school_european_history": 0.0,
+    "global_mmlu_full_pt_high_school_geography": 0.0,
+    "global_mmlu_full_pt_high_school_government_and_politics": 0.0,
+    "global_mmlu_full_pt_high_school_macroeconomics": 0.0,
+    "global_mmlu_full_pt_high_school_mathematics": 0.0,
+    "global_mmlu_full_pt_high_school_microeconomics": 0.0,
+    "global_mmlu_full_pt_high_school_physics": 0.0,
+    "global_mmlu_full_pt_high_school_psychology": 0.0,
+    "global_mmlu_full_pt_high_school_statistics": 0.0,
+    "global_mmlu_full_pt_high_school_us_history": 0.0,
+    "global_mmlu_full_pt_high_school_world_history": 0.0,
+    "global_mmlu_full_pt_human_aging": 0.0,
+    "global_mmlu_full_pt_human_sexuality": 0.0,
+    "global_mmlu_full_pt_humanities": 0.0,
+    "global_mmlu_full_pt_international_law": 0.0,
+    "global_mmlu_full_pt_jurisprudence": 0.0,
+    "global_mmlu_full_pt_logical_fallacies": 0.0,
+    "global_mmlu_full_pt_machine_learning": 0.0,
+    "global_mmlu_full_pt_management": 0.0,
+    "global_mmlu_full_pt_marketing": 0.0,
+    "global_mmlu_full_pt_medical_genetics": 0.0,
+    "global_mmlu_full_pt_miscellaneous": 0.0,
+    "global_mmlu_full_pt_moral_disputes": 0.0,
+    "global_mmlu_full_pt_moral_scenarios": 0.0,
+    "global_mmlu_full_pt_nutrition": 0.0,
+    "global_mmlu_full_pt_other": 0.0,
+    "global_mmlu_full_pt_philosophy": 0.0,
+    "global_mmlu_full_pt_prehistory": 0.0,
+    "global_mmlu_full_pt_professional_accounting": 0.0,
+    "global_mmlu_full_pt_professional_law": 0.0,
+    "global_mmlu_full_pt_professional_medicine": 0.0,
+    "global_mmlu_full_pt_professional_psychology": 0.0,
+    "global_mmlu_full_pt_public_relations": 0.0,
+    "global_mmlu_full_pt_security_studies": 0.0,
+    "global_mmlu_full_pt_social_sciences": 0.0,
+    "global_mmlu_full_pt_sociology": 0.0,
+    "global_mmlu_full_pt_stem": 0.0,
+    "global_mmlu_full_pt_us_foreign_policy": 0.0,
+    "global_mmlu_full_pt_virology": 0.0,
+    "global_mmlu_full_pt_world_religions": 0.0
+  },
+  "n-shot": {
+    "global_mmlu_full_pt_abstract_algebra": 0,
+    "global_mmlu_full_pt_anatomy": 0,
+    "global_mmlu_full_pt_astronomy": 0,
+    "global_mmlu_full_pt_business_ethics": 0,
+    "global_mmlu_full_pt_clinical_knowledge": 0,
+    "global_mmlu_full_pt_college_biology": 0,
+    "global_mmlu_full_pt_college_chemistry": 0,
+    "global_mmlu_full_pt_college_computer_science": 0,
+    "global_mmlu_full_pt_college_mathematics": 0,
+    "global_mmlu_full_pt_college_medicine": 0,
+    "global_mmlu_full_pt_college_physics": 0,
+    "global_mmlu_full_pt_computer_security": 0,
+    "global_mmlu_full_pt_conceptual_physics": 0,
+    "global_mmlu_full_pt_econometrics": 0,
+    "global_mmlu_full_pt_electrical_engineering": 0,
+    "global_mmlu_full_pt_elementary_mathematics": 0,
+    "global_mmlu_full_pt_formal_logic": 0,
+    "global_mmlu_full_pt_global_facts": 0,
+    "global_mmlu_full_pt_high_school_biology": 0,
+    "global_mmlu_full_pt_high_school_chemistry": 0,
+    "global_mmlu_full_pt_high_school_computer_science": 0,
+    "global_mmlu_full_pt_high_school_european_history": 0,
+    "global_mmlu_full_pt_high_school_geography": 0,
+    "global_mmlu_full_pt_high_school_government_and_politics": 0,
+    "global_mmlu_full_pt_high_school_macroeconomics": 0,
+    "global_mmlu_full_pt_high_school_mathematics": 0,
+    "global_mmlu_full_pt_high_school_microeconomics": 0,
+    "global_mmlu_full_pt_high_school_physics": 0,
+    "global_mmlu_full_pt_high_school_psychology": 0,
+    "global_mmlu_full_pt_high_school_statistics": 0,
+    "global_mmlu_full_pt_high_school_us_history": 0,
+    "global_mmlu_full_pt_high_school_world_history": 0,
+    "global_mmlu_full_pt_human_aging": 0,
+    "global_mmlu_full_pt_human_sexuality": 0,
+    "global_mmlu_full_pt_international_law": 0,
+    "global_mmlu_full_pt_jurisprudence": 0,
+    "global_mmlu_full_pt_logical_fallacies": 0,
+    "global_mmlu_full_pt_machine_learning": 0,
+    "global_mmlu_full_pt_management": 0,
+    "global_mmlu_full_pt_marketing": 0,
+    "global_mmlu_full_pt_medical_genetics": 0,
+    "global_mmlu_full_pt_miscellaneous": 0,
+    "global_mmlu_full_pt_moral_disputes": 0,
+    "global_mmlu_full_pt_moral_scenarios": 0,
+    "global_mmlu_full_pt_nutrition": 0,
+    "global_mmlu_full_pt_philosophy": 0,
+    "global_mmlu_full_pt_prehistory": 0,
+    "global_mmlu_full_pt_professional_accounting": 0,
+    "global_mmlu_full_pt_professional_law": 0,
+    "global_mmlu_full_pt_professional_medicine": 0,
+    "global_mmlu_full_pt_professional_psychology": 0,
+    "global_mmlu_full_pt_public_relations": 0,
+    "global_mmlu_full_pt_security_studies": 0,
+    "global_mmlu_full_pt_sociology": 0,
+    "global_mmlu_full_pt_us_foreign_policy": 0,
+    "global_mmlu_full_pt_virology": 0,
+    "global_mmlu_full_pt_world_religions": 0
+  },
+  "higher_is_better": {
+    "global_mmlu_full_pt": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_abstract_algebra": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_anatomy": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_astronomy": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_business_ethics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_clinical_knowledge": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_college_biology": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_college_chemistry": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_college_computer_science": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_college_mathematics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_college_medicine": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_college_physics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_computer_security": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_conceptual_physics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_econometrics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_electrical_engineering": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_elementary_mathematics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_formal_logic": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_global_facts": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_biology": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_chemistry": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_computer_science": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_european_history": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_geography": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_government_and_politics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_macroeconomics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_mathematics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_microeconomics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_physics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_psychology": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_statistics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_us_history": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_high_school_world_history": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_human_aging": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_human_sexuality": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_humanities": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_international_law": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_jurisprudence": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_logical_fallacies": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_machine_learning": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_management": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_marketing": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_medical_genetics": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_miscellaneous": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_moral_disputes": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_moral_scenarios": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_nutrition": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_other": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_philosophy": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_prehistory": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_professional_accounting": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_professional_law": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_professional_medicine": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_professional_psychology": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_public_relations": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_security_studies": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_social_sciences": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_sociology": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_stem": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_us_foreign_policy": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_virology": {
+      "acc": true
+    },
+    "global_mmlu_full_pt_world_religions": {
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "global_mmlu_full_pt_anatomy": {
+      "original": 135,
+      "effective": 135
+    },
+    "global_mmlu_full_pt_high_school_statistics": {
+      "original": 216,
+      "effective": 216
+    },
+    "global_mmlu_full_pt_high_school_computer_science": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_pt_high_school_chemistry": {
+      "original": 203,
+      "effective": 203
+    },
+    "global_mmlu_full_pt_college_mathematics": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_pt_abstract_algebra": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_pt_college_computer_science": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_pt_high_school_biology": {
+      "original": 310,
+      "effective": 310
+    },
+    "global_mmlu_full_pt_college_physics": {
+      "original": 102,
+      "effective": 102
+    },
+    "global_mmlu_full_pt_conceptual_physics": {
+      "original": 235,
+      "effective": 235
+    },
+    "global_mmlu_full_pt_electrical_engineering": {
+      "original": 145,
+      "effective": 145
+    },
+    "global_mmlu_full_pt_astronomy": {
+      "original": 152,
+      "effective": 152
+    },
+    "global_mmlu_full_pt_high_school_physics": {
+      "original": 151,
+      "effective": 151
+    },
+    "global_mmlu_full_pt_college_biology": {
+      "original": 144,
+      "effective": 144
+    },
+    "global_mmlu_full_pt_college_chemistry": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_pt_machine_learning": {
+      "original": 112,
+      "effective": 112
+    },
+    "global_mmlu_full_pt_elementary_mathematics": {
+      "original": 378,
+      "effective": 378
+    },
+    "global_mmlu_full_pt_high_school_mathematics": {
+      "original": 270,
+      "effective": 270
+    },
+    "global_mmlu_full_pt_computer_security": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_pt_college_medicine": {
+      "original": 173,
+      "effective": 173
+    },
+    "global_mmlu_full_pt_human_aging": {
+      "original": 223,
+      "effective": 223
+    },
+    "global_mmlu_full_pt_clinical_knowledge": {
+      "original": 265,
+      "effective": 265
+    },
+    "global_mmlu_full_pt_business_ethics": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_pt_management": {
+      "original": 103,
+      "effective": 103
+    },
+    "global_mmlu_full_pt_professional_medicine": {
+      "original": 272,
+      "effective": 272
+    },
+    "global_mmlu_full_pt_marketing": {
+      "original": 234,
+      "effective": 234
+    },
+    "global_mmlu_full_pt_professional_accounting": {
+      "original": 282,
+      "effective": 282
+    },
+    "global_mmlu_full_pt_nutrition": {
+      "original": 306,
+      "effective": 306
+    },
+    "global_mmlu_full_pt_medical_genetics": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_pt_virology": {
+      "original": 166,
+      "effective": 166
+    },
+    "global_mmlu_full_pt_miscellaneous": {
+      "original": 783,
+      "effective": 783
+    },
+    "global_mmlu_full_pt_global_facts": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_pt_sociology": {
+      "original": 201,
+      "effective": 201
+    },
+    "global_mmlu_full_pt_high_school_psychology": {
+      "original": 545,
+      "effective": 545
+    },
+    "global_mmlu_full_pt_high_school_government_and_politics": {
+      "original": 193,
+      "effective": 193
+    },
+    "global_mmlu_full_pt_high_school_geography": {
+      "original": 198,
+      "effective": 198
+    },
+    "global_mmlu_full_pt_public_relations": {
+      "original": 110,
+      "effective": 110
+    },
+    "global_mmlu_full_pt_security_studies": {
+      "original": 245,
+      "effective": 245
+    },
+    "global_mmlu_full_pt_high_school_microeconomics": {
+      "original": 238,
+      "effective": 238
+    },
+    "global_mmlu_full_pt_us_foreign_policy": {
+      "original": 100,
+      "effective": 100
+    },
+    "global_mmlu_full_pt_human_sexuality": {
+      "original": 131,
+      "effective": 131
+    },
+    "global_mmlu_full_pt_econometrics": {
+      "original": 114,
+      "effective": 114
+    },
+    "global_mmlu_full_pt_high_school_macroeconomics": {
+      "original": 390,
+      "effective": 390
+    },
+    "global_mmlu_full_pt_professional_psychology": {
+      "original": 612,
+      "effective": 612
+    },
+    "global_mmlu_full_pt_formal_logic": {
+      "original": 126,
+      "effective": 126
+    },
+    "global_mmlu_full_pt_high_school_world_history": {
+      "original": 237,
+      "effective": 237
+    },
+    "global_mmlu_full_pt_philosophy": {
+      "original": 311,
+      "effective": 311
+    },
+    "global_mmlu_full_pt_moral_disputes": {
+      "original": 346,
+      "effective": 346
+    },
+    "global_mmlu_full_pt_professional_law": {
+      "original": 1534,
+      "effective": 1534
+    },
+    "global_mmlu_full_pt_international_law": {
+      "original": 121,
+      "effective": 121
+    },
+    "global_mmlu_full_pt_high_school_us_history": {
+      "original": 204,
+      "effective": 204
+    },
+    "global_mmlu_full_pt_logical_fallacies": {
+      "original": 163,
+      "effective": 163
+    },
+    "global_mmlu_full_pt_prehistory": {
+      "original": 324,
+      "effective": 324
+    },
+    "global_mmlu_full_pt_moral_scenarios": {
+      "original": 895,
+      "effective": 895
+    },
+    "global_mmlu_full_pt_jurisprudence": {
+      "original": 108,
+      "effective": 108
+    },
+    "global_mmlu_full_pt_world_religions": {
+      "original": 171,
+      "effective": 171
+    },
+    "global_mmlu_full_pt_high_school_european_history": {
+      "original": 165,
+      "effective": 165
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn,trust_remote_code=True,local_files_only=True,trust_remote_code=True",
+    "model_num_parameters": 222882048,
+    "model_dtype": "torch.float32",
+    "model_revision": "main",
+    "model_sha": "",
+    "batch_size": "auto",
+    "batch_sizes": [
+      64
+    ],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 42,
+    "numpy_seed": 42,
+    "torch_seed": 42,
+    "fewshot_seed": 42
+  },
+  "git_hash": "20ce01f",
+  "date": 1771291902.61921,
+  "pretty_env_info": "PyTorch version: 2.7.1+cu126\nIs debug build: False\nCUDA used to build PyTorch: 12.6\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 22.04.2 LTS (x86_64)\nGCC version: (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0\nClang version: Could not collect\nCMake version: version 3.24.1\nLibc version: glibc-2.35\n\nPython version: 3.10.6 (main, Mar 10 2023, 10:55:28) [GCC 11.3.0] (64-bit runtime)\nPython platform: Linux-6.8.0-1045-nvidia-x86_64-with-glibc2.35\nIs CUDA available: True\nCUDA runtime version: 12.1.105\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: GPU 0: NVIDIA GeForce RTX 3090\nNvidia driver version: 580.126.09\ncuDNN version: Probably one of the following:\n/usr/lib/x86_64-linux-gnu/libcudnn.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_adv_infer.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_adv_train.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_cnn_infer.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_cnn_train.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_ops_infer.so.8.9.1\n/usr/lib/x86_64-linux-gnu/libcudnn_ops_train.so.8.9.1\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        43 bits physical, 48 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               96\nOn-line CPU(s) list:                  0-95\nVendor ID:                            AuthenticAMD\nModel name:                           AMD EPYC 7402 24-Core Processor\nCPU family:                           23\nModel:                                49\nThread(s) per core:                   2\nCore(s) per socket:                   24\nSocket(s):                            2\nStepping:                             0\nFrequency boost:                      enabled\nCPU max MHz:                          2800.0000\nCPU min MHz:                          1500.0000\nBogoMIPS:                             5600.36\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca sev sev_es ibpb_exit_to_user\nL1d cache:                            1.5 MiB (48 instances)\nL1i cache:                            1.5 MiB (48 instances)\nL2 cache:                             24 MiB (48 instances)\nL3 cache:                             256 MiB (16 instances)\nNUMA node(s):                         4\nNUMA node0 CPU(s):                    0-11,48-59\nNUMA node1 CPU(s):                    12-23,60-71\nNUMA node2 CPU(s):                    24-35,72-83\nNUMA node3 CPU(s):                    36-47,84-95\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Mitigation; untrained return thunk; SMT enabled with STIBP protection\nVulnerability Spec rstack overflow:   Mitigation; Safe RET\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\nVulnerability Vmscape:                Mitigation; IBPB before exit to userspace\n\nVersions of relevant libraries:\n[pip3] numpy==1.26.4\n[pip3] nvidia-cublas-cu12==12.6.4.1\n[pip3] nvidia-cuda-cupti-cu12==12.6.80\n[pip3] nvidia-cuda-nvrtc-cu12==12.6.77\n[pip3] nvidia-cuda-runtime-cu12==12.6.77\n[pip3] nvidia-cudnn-cu12==9.5.1.17\n[pip3] nvidia-cufft-cu12==11.3.0.4\n[pip3] nvidia-curand-cu12==10.3.7.77\n[pip3] nvidia-cusolver-cu12==11.7.1.2\n[pip3] nvidia-cusparse-cu12==12.5.4.2\n[pip3] nvidia-cusparselt-cu12==0.6.3\n[pip3] nvidia-nccl-cu12==2.26.2\n[pip3] nvidia-nvjitlink-cu12==12.6.85\n[pip3] nvidia-nvtx-cu12==12.6.77\n[pip3] pytorch-lightning==2.5.2\n[pip3] torch==2.7.1\n[pip3] torchmetrics==1.8.0\n[pip3] triton==3.3.1\n[conda] Could not collect",
+  "transformers_version": "4.54.1",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<pad>",
+    "0"
+  ],
+  "tokenizer_eos_token": [
+    "</s>",
+    "1"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 1,
+  "max_length": 512,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/por_Latn/wechsel-init-por_Latn",
+  "model_name_sanitized": "__netscratch__anonymous_user__projects__BA-hydra__evaluation__converted_checkpoints__clt_multilingual_paper_spm32k_permanent__por_Latn__wechsel-init-por_Latn",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 574845.444042574,
+  "end_time": 575128.526891348,
+  "total_evaluation_time_seconds": "283.08284877392"
+}

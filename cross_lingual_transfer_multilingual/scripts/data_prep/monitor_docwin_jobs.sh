@@ -10,7 +10,7 @@ Usage:
 
 Options:
   --user USER             Slurm user (default: $USER)
-  --project-root PATH     Project root (default: /netscratch/nrauscher/projects/BA-hydra)
+  --project-root PATH     Project root (default: /netscratch/anonymous_user/projects/BA-hydra)
   --job-name NAME         Filter by exact Slurm job name (default: clt_multi_docwin)
                           Use "all" to show all jobs from the user.
   --interval SEC          Refresh interval in seconds (default: 30)
@@ -30,7 +30,7 @@ EOF
 }
 
 USER_NAME="${USER:-}"
-PROJECT_ROOT="/netscratch/nrauscher/projects/BA-hydra"
+PROJECT_ROOT="/netscratch/anonymous_user/projects/BA-hydra"
 JOB_NAME_FILTER="clt_multi_docwin"
 INTERVAL_SEC=30
 ONCE=0

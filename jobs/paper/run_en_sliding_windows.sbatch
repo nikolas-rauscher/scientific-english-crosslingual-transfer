@@ -18,7 +18,7 @@ mkdir -p logs
 
 CONTAINER_IMAGE="${CONTAINER_IMAGE:-/netscratch/${USER}/containers/hydra_pytorch_25.05.25-final.sqsh}"
 if [[ ! -f "$CONTAINER_IMAGE" ]]; then
-  CONTAINER_IMAGE="/netscratch/nrauscher/containers/hydra_pytorch_25.05.25-final.sqsh"
+  CONTAINER_IMAGE="/netscratch/anonymous_user/containers/hydra_pytorch_25.05.25-final.sqsh"
 fi
 
 MOUNTS="/netscratch:/netscratch,/home/$USER:/home/$USER"

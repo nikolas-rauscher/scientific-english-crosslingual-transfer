@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_ROOT="/netscratch/nrauscher/projects/BA-hydra"
+PROJECT_ROOT="/netscratch/anonymous_user/projects/BA-hydra"
 GEN_SCRIPT="$PROJECT_ROOT/cross_lingual_transfer_multilingual/scripts/paper/generate_mmlu_configs_all.py"
 JOB_SCRIPT="$PROJECT_ROOT/cross_lingual_transfer_multilingual/jobs/paper/run_mmlu_eval_single_lang_paper.sbatch"
 LANGS=(deu_Latn jpn_Jpan spa_Latn rus_Cyrl pol_Latn por_Latn)

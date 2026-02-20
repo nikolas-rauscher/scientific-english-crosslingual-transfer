@@ -42,7 +42,7 @@ def main() -> int:
     except Exception as exc:
         raise SystemExit(
             "PyTorch is required for canonicalization. "
-            "Run with: /netscratch/nrauscher/projects/BA-hydra/.venv_pretraining/bin/python "
+            "Run with: /netscratch/anonymous_user/projects/BA-hydra/.venv_pretraining/bin/python "
             "cross_lingual_transfer_multilingual/scripts/setup/canonicalize_models_from_manifest.py"
         ) from exc
 

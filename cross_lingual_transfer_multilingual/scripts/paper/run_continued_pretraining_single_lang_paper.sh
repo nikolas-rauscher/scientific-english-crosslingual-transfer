@@ -5,7 +5,7 @@ set -euo pipefail
 # Usage:
 #   bash cross_lingual_transfer_multilingual/scripts/paper/run_continued_pretraining_single_lang_paper.sh <LANG_CODE>
 
-PROJECT_ROOT="/netscratch/nrauscher/projects/BA-hydra"
+PROJECT_ROOT="/netscratch/anonymous_user/projects/BA-hydra"
 SUBPROJECT_ROOT="$PROJECT_ROOT/cross_lingual_transfer_multilingual"
 
 LANG_CODE="${1:?Missing LANG_CODE, e.g. deu_Latn}"

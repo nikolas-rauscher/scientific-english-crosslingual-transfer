@@ -27,7 +27,7 @@ set -euo pipefail
 #   DATA_MODE=subset bash cross_lingual_transfer_multilingual/scripts/data_prep/run_sliding_windows_for_doc_splits.sh \
 #     spa_Latn vgaraujov/t5-base-spanish 75 75 75 true train,val,test
 
-PROJECT_ROOT="/netscratch/nrauscher/projects/BA-hydra"
+PROJECT_ROOT="/netscratch/anonymous_user/projects/BA-hydra"
 SUBPROJECT_ROOT="$PROJECT_ROOT/cross_lingual_transfer_multilingual"
 if [[ -z "${PYTHON_BIN:-}" ]]; then
   if [[ -x "$PROJECT_ROOT/.venv_pretraining/bin/python" ]]; then

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_ROOT="/netscratch/nrauscher/projects/BA-hydra"
+PROJECT_ROOT="/netscratch/anonymous_user/projects/BA-hydra"
 JOBS_DIR="$PROJECT_ROOT/cross_lingual_transfer_multilingual/jobs/paper"
 STATUS_DIR="$PROJECT_ROOT/cross_lingual_transfer_multilingual/logs/paper_pipeline"
 mkdir -p "$STATUS_DIR"

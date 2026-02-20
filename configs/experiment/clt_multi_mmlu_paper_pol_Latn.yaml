@@ -4,22 +4,22 @@ experiment_name: "clt_multi_mmlu_paper_pol_Latn"
 description: "Global-MMLU paper-track A/B for pol_Latn (old vs paper tokenizer-trained WECHSEL)."
 
 models:
-  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-pol_Latn"
+  - source_path: "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-pol_Latn"
     name: "hf-monolingual-pol_Latn"
 
-  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-continued-pol_Latn"
+  - source_path: "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/hf-monolingual-continued-pol_Latn"
     name: "hf-monolingual-continued-pol_Latn"
 
-  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-init-pol_Latn"
+  - source_path: "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-init-pol_Latn"
     name: "wechsel-init-pol_Latn"
 
-  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-continued-pol_Latn"
+  - source_path: "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-continued-pol_Latn"
     name: "wechsel-continued-pol_Latn"
 
-  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-init-paper-spm32k-pol_Latn"
+  - source_path: "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-init-paper-spm32k-pol_Latn"
     name: "wechsel-init-paper-spm32k-pol_Latn"
 
-  - source_path: "/netscratch/nrauscher/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-continued-paper-spm32k-pol_Latn"
+  - source_path: "/netscratch/anonymous_user/projects/BA-hydra/evaluation/converted_checkpoints/clt_multilingual_paper_spm32k_permanent/pol_Latn/wechsel-continued-paper-spm32k-pol_Latn"
     name: "wechsel-continued-paper-spm32k-pol_Latn"
 
 benchmarks:

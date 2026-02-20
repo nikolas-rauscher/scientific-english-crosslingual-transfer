@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load T5-base results
-with open('/netscratch/nrauscher/projects/BA-hydra/logs/eval_pipeline/runs/2025-08-22_00-35-12/evaluation/results/universal/comprehensive_crosslingual_global_mmlu/t5-base-original_global_mmlu_english_full_0shot_20250822_004350/t5-base/results_2025-08-22T00-48-50.175124.json', 'r') as f:
+with open('/netscratch/anonymous_user/projects/BA-hydra/logs/eval_pipeline/runs/2025-08-22_00-35-12/evaluation/results/universal/comprehensive_crosslingual_global_mmlu/t5-base-original_global_mmlu_english_full_0shot_20250822_004350/t5-base/results_2025-08-22T00-48-50.175124.json', 'r') as f:
     t5_base_results = json.load(f)
 
 # Extract T5-base scores
@@ -18,7 +18,7 @@ for task_name, task_data in t5_base_results['results'].items():
         t5_base_scores[clean_name] = task_data['acc,none']
 
 # Load Clean Restart data
-df = pd.read_csv('/netscratch/nrauscher/projects/BA-hydra/evaluation_results/clean-restart/clean-restart_subtasks_progression_clean_restart_data.csv')
+df = pd.read_csv('/netscratch/anonymous_user/projects/BA-hydra/evaluation_results/clean-restart/clean-restart_subtasks_progression_clean_restart_data.csv')
 
 # Prepare data for heatmap
 task_names = []
@@ -109,7 +109,7 @@ ax.axvline(x=best_step_idx, color='gold', linewidth=2, linestyle='--', alpha=0.7
 ax.text(best_step_idx, -1, 'Best (250k)', ha='center', fontsize=10, fontweight='bold')
 
 plt.tight_layout()
-plt.savefig('/netscratch/nrauscher/projects/BA-hydra/evaluation_results/clean-restart/relative_improvement_heatmap_vs_t5base.png', 
+plt.savefig('/netscratch/anonymous_user/projects/BA-hydra/evaluation_results/clean-restart/relative_improvement_heatmap_vs_t5base.png', 
             dpi=150, bbox_inches='tight')
 
 print(f'✅ Heatmap saved: evaluation_results/clean-restart/relative_improvement_heatmap_vs_t5base.png')
