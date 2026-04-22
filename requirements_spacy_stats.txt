@@ -11,7 +11,7 @@ spacy>=3.8.0  # spaCy 3.8+ unterstützt memory_zone() und NumPy 2.x
 
 # --------- hydra (minimale Installation) --------- #
 hydra-core==1.3.2
-omegaconf>=2.1.0
+omegaconf>=2.3.0
 
 # --------- minimal datatrove dependencies --------- #
 fsspec>=2023.12.2
