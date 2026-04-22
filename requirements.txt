@@ -6,7 +6,7 @@ torchmetrics>=0.11.4
 
 # --------- core dependencies --------- #
 numpy>=2.0.0  # Required by datatrove
-pandas>=2.0.0  # Compatible with numpy 2.x
+pandas>=3.0.2  # Compatible with numpy 2.x
 regex>=2022.1.18  # High-performance regex with possessive quantifiers for 10M+ documents
 
 # --------- model & training --------- #

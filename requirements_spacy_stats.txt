@@ -3,7 +3,7 @@
 
 # --------- core dependencies --------- #
 numpy>=2.0  # NumPy 2.x für DataTrove + spaCy 3.8+ Kompatibilität
-pandas>=1.5.3
+pandas>=3.0.2
 python-dotenv  # Environment variable loading
 
 # --------- spacy für Stats --------- #
