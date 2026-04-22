@@ -16,7 +16,7 @@ omegaconf>=2.1.0
 # --------- minimal datatrove dependencies --------- #
 fsspec>=2023.12.2
 huggingface-hub>=0.17.0
-loguru>=0.7.0
+loguru>=0.7.3
 tqdm
 pyarrow
 
