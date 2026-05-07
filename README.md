@@ -88,3 +88,14 @@ Configs in `configs/experiment/`:
 - `scientific_crosslingual_transfer_eval_full_15k_scifive_en.yaml`
 - `clt_multi_mmlu_paper_*.yaml`
 - `bloom_original_global_mmlu_{en,ja,es,ru,pl,pt}.yaml`
+
+## Data and Evaluation
+
+- Training corpus: [SciLaD all-text v1](https://huggingface.co/datasets/scilons/SciLaD-all-text-v1)
+- Evaluation benchmark: [Global-MMLU](https://huggingface.co/datasets/CohereLabs/Global-MMLU)
+
+## Citation
+
+- Title: Transferring Scientific English Pre-Trained Language Models to Multiple Languages Using Cross-Lingual Transfer
+- Authors: Nikolas Rauscher, Fabio Barth, Georg Rehm
+- Venue: LREC-COLING 2026, citation details TBA after publication
